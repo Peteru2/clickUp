@@ -1,0 +1,210 @@
+
+.nav{
+    background-color: white;
+    margin: 0px;
+    margin-bottom: 200px;
+    height: 56px;
+    /* justify-content: center; */
+    margin-left: 0  ;
+    z-index: 9999;
+    transition: 0.3s ease-in-out;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    border-bottom: 2px solid rgba(0,0,0,.7) ;
+    
+    /* transform: translate(50%); */
+
+}
+.mfooter{
+    background-color:rgba(0,0,0,.7)
+}
+.nav-logo{
+    color:black;
+    padding: 8px 0px;
+    margin-right: 6%;
+    margin-left: 10%;
+    font-weight:900;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.nav-menu{
+    display :grid;
+    grid-template-columns: repeat(8, auto);
+    grid-gap: 4%;
+
+    /* align-items: center; */
+}
+.nav-list{
+    padding: 15px 1%;
+    margin: 0px;
+
+   
+    /* display: inline; */
+    /* flex-direction: row; */
+}
+.menu-icon{
+    display: none
+}
+  .nav-links{
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 17px 3%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.2s ease-in-out;
+   
+}
+.nav-links:hover{
+    border-bottom: 5px solid rgba(255, 255, 255,.8);
+    color: rgba(255, 255, 255,.8)
+    
+}
+.nav-side{
+    margin-top: 3px;
+    margin-left: 90%;
+    display :flex;
+    font-size: 20px;
+
+}
+.aside{
+    margin-right: 2%;
+    border-radius: 4px;
+    padding: 9px 4px 3px;
+    flex-direction: row;
+    font-size:100%
+}
+.aside a {text-decoration: none;
+    font-size: 15px;
+    color:white;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.aside .span{
+/* flex-direction: row; */
+padding: 8px;
+border-radius: 5px;
+background-color: rgb(57, 87, 219);
+color: white;
+display: flex;
+
+}
+.aside .log{
+    padding-top: 300px;
+    margin-top: 20px;
+}
+
+@media only screen  and (max-width: 1080px){
+    .nav{
+        z-index: 99;
+        justify-content:flex-start;
+        margin: 0;
+        /* position: fixed; */
+    }
+    
+   
+    .menu-icon .fa-bars{
+        color: white;
+    }
+
+    .nav-menu {
+        background-color: #fff;
+        color:rgba(0,0,0,.7);
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        display: flex;
+        opacity: 0;
+        align-items: stretch;
+        flex-direction: column;
+        justify-content: center;
+        padding: 80px 0 30px 0;
+        margin: 0;
+        z-index: 99;
+        transition: 0.3s ease-in-out;    
+    }
+
+    .nav-menu.active{
+        left: 0;
+        opacity: 1;
+        z-index: -1;
+
+    }
+    .nav-ogo{
+        color: white
+    }
+    .nav-ogo.active{
+        color: rgba(0,0,0,.7);
+    }
+    .nav-links {
+        color:rgba(0,0,0,.7);
+        display: block;
+        width: 100%;
+        padding:  20px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 0px;    
+    }
+
+    .nav-links:hover{
+        color: #fff;
+        background-color:rgba(0,0,0,.7);
+        border-bottom: none;
+    }
+
+    .nav-list{
+        padding: 0px;
+    }
+    .nav-menu{
+    grid-gap: 00px;
+
+    }
+    .nav-side{
+        
+        margin-left: 1%;
+        padding: 8px 0px;
+        color:rgb(57, 87, 219);
+        justify-content: center;
+       
+    }
+    .menu-icon{
+        padding-top: 10px;
+        font-size: large;
+        margin-left: 78%;
+        display: block;
+        cursor: pointer;
+        /* color: white; */
+    }
+    .nav-logo{
+        margin-left: 3%;
+    
+    }
+     .aside a{
+        color: rgba(0,0,0,.7);
+        font-weight: bold;
+     }
+
+}
+/* @media only screen  and (min-width:481px) and (max-width: 900px){ */
+@media only screen  and (min-width:500px) and (max-width:960px){
+    .menu-icon{
+        padding-top: 10px;
+        font-size: large;
+        margin-left: 66%;
+    }
+}
+@media only screen  and (max-width:500px){
+    .menu-icon{
+        padding-top: 10px;
+        font-size: large;
+        margin-left: 55%;
+    }
+}
