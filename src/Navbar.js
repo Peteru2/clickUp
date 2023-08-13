@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import  NavMenu from "./navMenu.js";
-import "./Nav.css";
+// import "./Nav.css";
 import { useState } from "react";
 
 
@@ -14,43 +14,28 @@ const Navbar = () => {
 
    return (
    
-        <nav className="nav">
-            <h2 className="nav-logo" style={name? { color :'rgba(0,0,0,.7)'}:{color: 'white'}}>
-              O-Tour   
-            </h2>
-
-            <div className="menu-icon" onClick={handleClick}>
-                <i className = {name ? "fa fa-times" : "fa fa-bars"}></i>
-            </div>
-
-            <div className = {name ? "nav-menu active ":"nav-menu"}>
-            {NavMenu.map((item,index) => {
-                return (
-                          
-                       <li className="nav-list" key = {index}>
-                            <Link  className = {item.cName}  to = {item.url}>
-                                {item.title}
-                            </Link>
-                            </li>
-                            
-                    
-                );
-            })}
-            <h2 className="nav-side ">
-            <span className="aside">
-                <a href = "/" className="log">Login </a>
-                </span>
-
-                <span className="aside">
-                  <a href = "/"  className="span"> SignUp</a>
-                </span>
-                
-                
-              </h2>
-        </div>
-              
-              </nav>
-
+      <nav className=" flow-root flex group bg-white w-full columns-2 border-b-2 px-3">
+       
+        <ul className="float-left">
+          <li className="py-4 mr-3">jskjs</li>
+        </ul>
+        <ul className="flex">
+          {NavMenu.map((item, index) =>{
+            return(
+              <li key={index} className=" py-4 hover:border-b-4">
+              <Link className="px-8 border-l-2">{item.title}</Link>
+            </li>
+            )
+          })
+       
+        }
+        
+        </ul>
+        <ul className="float-right flex">
+          <li className="py-4 ">asds</li>
+          <li className=" py-4 text-white group-hover:text-black">asdadfkla</li>
+        </ul>
+      </nav>
 )
         }
 export default Navbar;
