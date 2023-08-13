@@ -1,23 +1,54 @@
 import { Link } from "react-router-dom";
 import  NavMenu from "./navMenu.js";
-// import "./Nav.css";
+import "./Nav.css";
 import { useState } from "react";
 
 
 const Navbar = () => {
 
-   const [name, setState] = useState(false)
+   const [name, setState] = useState(true)
+    const [sideBar, setSideBar] = useState(true)
     console.log(name);
-      const  handleClick = () => {
-        setState(current => !current )
-    }
+     const handleClick = () =>{
+      setState(change => !change)
+      setSideBar(false)
+     }
 
+   
+  
+     
+    
    return (
    
-      <nav className=" flow-root flex group bg-white w-full columns-2 border-b-2 px-3">
+      <nav className={name ? " flow-root flex group bg-white w-full columns-2 border-b-2 px-4": "ml-24"}>
        
-        <ul className="float-left">
-          <li className="py-4 mr-3">jskjs</li>
+        <ul className="float-left flex">
+          <div className="group">
+        <li  
+            onMouseEnter={() => setSideBar(false)} 
+            onMouseLeave={() => setSideBar(true)}
+            className="py-4 mr-3 topSideIcon" 
+            onClick={handleClick} >
+            T
+          </li>
+        <div 
+        onMouseEnter={() => setSideBar(false)} 
+            onMouseLeave={() => setSideBar(true)}
+            className="py-4 mr-3 topSideIcon " 
+            onClick={handleClick}
+             className={ sideBar ? "  topSideBar ":"topSideBar active" }>
+
+            <div className="px-3 rounded bg-gray-400">
+              <i className = "fa fa-search mr-4"></i>search
+            </div>
+             <div className="grid gri-col-3">
+              Alagbara
+            </div>
+        </div>
+
+        </div>
+        <li className="py-4 mr-3">Team Space</li>
+          <li className="py-4 mr-3">Team Space</li>
         </ul>
         <ul className="flex">
           {NavMenu.map((item, index) =>{
@@ -32,8 +63,10 @@ const Navbar = () => {
         
         </ul>
         <ul className="float-right flex">
-          <li className="py-4 ">asds</li>
-          <li className=" py-4 text-white group-hover:text-black">asdadfkla</li>
+          <div  className="py-4 flex ">          <li>asds</li>
+          <li className=" px-1 border-2 px-4 rounded-sm">share</li>
+          </div>
+
         </ul>
       </nav>
 )
