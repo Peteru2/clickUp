@@ -32,11 +32,10 @@ const Navbar = () => {
             T
           </li>
         <div 
-        onMouseEnter={() => setSideBar(false)} 
+            onMouseEnter={() => setSideBar(false)} 
             onMouseLeave={() => setSideBar(true)}
-            className=" "
             onClick={handleClick}
-             className={ sideBar ? "  topSideBar ":"topSideBar active py-4 mr-3 topSideIcon " }>
+            className={ sideBar ? "  topSideBar ":"topSideBar active py-4 mr-3 topSideIcon " }>
 
             <div className="px-3 rounded bg-gray-400">
               <i className = "fa fa-search mr-4"></i>search
