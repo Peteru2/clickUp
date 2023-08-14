@@ -6,14 +6,15 @@ import { useState } from "react";
 
 const Navbar = () => {
 
-   const [name, setState] = useState(true)
-    const [sideBar, setSideBar] = useState(true)
+   const [name, setState] = useState(true) 
+   const [sideBar, setSideBar] = useState(true)
+  //  const [sideBarElem, setSideBarElem] = useState(true)
+
     console.log(name);
      const handleClick = () =>{
       setState(change => !change)
       setSideBar(false)
      }
-
    
   
      
@@ -34,16 +35,26 @@ const Navbar = () => {
         <div 
             onMouseEnter={() => setSideBar(false)} 
             onMouseLeave={() => setSideBar(true)}
-            onClick={handleClick}
             className={ sideBar ? "  topSideBar ":"topSideBar active py-4 mr-3 topSideIcon " }>
 
-            <div className="px-3 rounded bg-gray-400">
+            <div className="px-3 py-1 rounded bg-gray-400">
               <i className = "fa fa-search mr-4"></i>search
             </div>
-             <div className="grid gri-col-3">
-              Alagbara
+             <div className=" px-3 mt-2">
+             <i className = "fa fa-home mr-4"></i>Home
             </div>
-        </div>
+            <div className=" px-3 mt-2">
+             <i className = "fa fa-home mr-4"></i>Notification
+            </div> <div className=" px-3 mt-2">
+             <i className = "fa fa-home mr-4"></i>Home
+            </div>
+            <div className = "sideDropBar">
+              <div>Click Me</div>
+              <div className="sideDropBarElem">
+                Lets go
+              </div>
+            </div>
+               </div>
 
         </div>
         <li className="py-4 mr-3">Team Space</li>
@@ -62,8 +73,8 @@ const Navbar = () => {
         
         </ul>
         <ul className="float-right flex">
-          <div  className="py-4 flex ">          <li>asds</li>
-          <li className=" px-1 border-2 px-4 rounded-sm">share</li>
+          <div  className=" flex ">          <li>asds</li>
+          <li className="  border-2 px-2 py-1 mt-3 rounded-lg"><i className="fa fa-share-alt"></i> Share</li>
           </div>
 
         </ul>

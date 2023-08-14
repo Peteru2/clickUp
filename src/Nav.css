@@ -12,7 +12,7 @@
     z-index: -1;
     background: white;
     width: 350px;
-    height: 40px;
+    height: 400px;
     border: 1px solid black;
     border-radius: 10px;
     box-shadow:
@@ -25,4 +25,12 @@
 .topSideBar.active{
     top: 70px;
     left: 10px;
+}
+.sideDropBar{
+    position: relative;
+    
+}
+.sideDropBarElem{
+    position: relative;
+    border: 1px solid red;
 }
