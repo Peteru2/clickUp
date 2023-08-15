@@ -1,0 +1,32 @@
+.show-more-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out; /* Add transition for max-height property */
+    max-height: 100px; /* Set a default max-height */
+  }
+  
+  .collapsed .content {
+    display: none;
+  }
+  
+  .expanded .toggle-button::before {
+    content: "↑";
+  }
+  
+  .collapsed .toggle-button::before {
+    content: "↓";
+  }
+  
+  /* Adjust max-height for expanded content */
+  .expanded .show-more-container {
+    max-height: 1000px; /* Adjust to a value that accommodates your content */
+  }
+  
+  
+  
+  
+  
+  
+  

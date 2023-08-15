@@ -8,6 +8,13 @@ const Navbar = () => {
 
    const [name, setState] = useState(true) 
    const [sideBar, setSideBar] = useState(true)
+   
+    const [showContent, setShowContent] = useState(false);
+  
+    const toggleContent = () => {
+      setShowContent(!showContent);
+    };
+  
   //  const [sideBarElem, setSideBarElem] = useState(true)
 
     console.log(name);
@@ -21,7 +28,7 @@ const Navbar = () => {
     
    return (
    
-      <nav className={name ? " flow-root flex group bg-white w-full columns-2 border-b-2 px-4": "ml-24"}>
+      <nav className={name ? " flow-root flex group bg-white w-full columns-2 border-b-2 px-4": "pl-24"}>
        
         <ul className="float-left flex">
           <div className="group">
@@ -41,12 +48,16 @@ const Navbar = () => {
               <i className = "fa fa-search mr-4"></i>search
             </div>
              <div className=" px-3 mt-2">
-             <i className = "fa fa-home mr-4"></i>Home
+             <i className = "fa fa-home mr-4"></i> Home
             </div>
             <div className=" px-3 mt-2">
-             <i className = "fa fa-home mr-4"></i>Notification
-            </div> <div className=" px-3 mt-2">
-             <i className = "fa fa-home mr-4"></i>Home
+             <i className = "fa fa-home mr-4"></i> Notification
+            </div>
+            <div className={`goals ${showContent ? "px-3 mt-2 visible" : "hidden"  }`} >
+             <i className = "fa fa-home mr-4"></i> Goals
+            </div>
+             <div className=" px-3 mt-2" onClick={toggleContent}>
+             <i className = "fa fa-home mr-4"></i> Show more
             </div>
             <div className = "sideDropBar">
               <div>Click Me</div>
@@ -65,6 +76,7 @@ const Navbar = () => {
             return(
               <li key={index} className=" py-4 hover:border-b-4">
               <Link className="px-8 border-l-2">{item.title}</Link>
+             
             </li>
             )
           })
