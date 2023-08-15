@@ -23,8 +23,16 @@
   .expanded .show-more-container {
     max-height: 1000px; /* Adjust to a value that accommodates your content */
   }
-  
-  
+  .loginPage{
+        height: 100%;
+        overflow-y: hidden;
+
+  }
+  .svg{
+    z-index: -1;
+       ;
+    /* margin-top: 400px */
+  }
   
   
   
