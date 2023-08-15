@@ -1,19 +1,25 @@
 const NavMenu = 
         [
             {
-                title : "HOME",
+                title : "List",
                 url: "/",
                 cName : "nav-links",
                 icon: "",
             },
             {
-                title : "ABOUT",
+                title : "Board",
                 url: "/About",
                 cName : "nav-links",
                 icon: "",
             },
             {
-                title : "HISTORY",
+                title : "Calender",
+                url: "/History",
+                cName : "nav-links",
+                icon: "",
+            },
+            {
+                title : "View",
                 url: "/History",
                 cName : "nav-links",
                 icon: "",

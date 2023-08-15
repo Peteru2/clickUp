@@ -58,7 +58,7 @@ const Navbar = () => {
 
         </div>
         <li className="py-4 mr-3">Team Space</li>
-          <li className="py-4 mr-3">Team Space</li>
+        
         </ul>
         <ul className="flex">
           {NavMenu.map((item, index) =>{
@@ -73,7 +73,9 @@ const Navbar = () => {
         
         </ul>
         <ul className="float-right flex">
-          <div  className=" flex ">          <li>asds</li>
+          <div  className=" flex ">          
+          <li className="  border-2 px-2 py-1 mt-3 mr-4 rounded-lg">Action <button className="border-l-2 px-1"><i className="fa fa-share-alt"></i></button> </li>
+      
           <li className="  border-2 px-2 py-1 mt-3 rounded-lg"><i className="fa fa-share-alt"></i> Share</li>
           </div>
 
