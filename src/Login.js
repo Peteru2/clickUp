@@ -50,7 +50,7 @@ const Login = () =>{
     
     </div>
     <div className="asideBox text-center font-bold">
-      <p className="border-2 w-4  rounded-md">?</p>
+      <p className="border-2 w-4  rounded-md ml-5">?</p>
       <p>Help</p>
     </div>
     <div className="logDetail">
