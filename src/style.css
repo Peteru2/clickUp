@@ -43,16 +43,16 @@
     }
     .asideBox{
       color: white;
-      right: 23%;
-      bottom:24%;
-      position:absolute;
-      padding: 7px;
+      right: 420px;
+      bottom:187px;
+      position:fixed !important;
+      padding: 5px;
       background: rgba(225,225,225,.3);
       z-index: 1;
       text-align: center;
       align-items: center;
       justify-content: right;
-      width: 70px;
+      width: 65px;
       border-radius: 8px;
     }
     .logForgot{
@@ -62,7 +62,11 @@
     .fadeBorder{
       border-bottom: 1px solid rgba(225,225,225,.5);
     }
-   
+    .sso{
+      color: rgb(37 99 235);
+      cursor: pointer;
+      font-size: 13px
+    }
     @media only screen  and (max-width: 480px){
       .loginForm{
     
