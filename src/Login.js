@@ -3,7 +3,7 @@ import "./style.css"
 const Login = () =>{
     return(
         <div className="bg-gray-100 logBody">
-         <nav className="flow-root flex group mb-9   md:mb-10  w-full columns-2  px-7 py-6 my-1">
+         <nav className="flow-root flex group mb-12   md:mb-10  w-full columns-2  px-7 py-6 my-1">
        
        <div className="float-left flex">
 
