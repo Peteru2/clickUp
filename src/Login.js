@@ -62,7 +62,7 @@ const Login = () =>{
    
     <p className="mt-2 md:mt-20 recaptcha hidden md:block md:p-0 text-white logfooterP">This site is protected by reCAPTCHA and the Google <b className="pb-1 fadeBorder"><Link> Privacy Policy</Link></b> and <b className="pb-1 fadeBorder"><Link>Terms of Service apply</Link></b>.</p>
     </div>
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"  preserveAspectRatio="none" style={{ position: "absolute", top:392, left: 0, width: "100%", height: "100%" }}>
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"  preserveAspectRatio="none" style={{ position: "absolute", top:392, left: 0, width: "100%", height: "55%" }}>
   <defs>
     <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style={{ stopColor: "rgb(37 99 235)", stopOpacity: 1 }} />
