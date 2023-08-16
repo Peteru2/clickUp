@@ -28,16 +28,40 @@
         overflow-y: hidden;
 
   }
-  .svg{
-    z-index: -1;
-       ;
-    /* margin-top: 400px */
+  
+  .logDetail{
+    position: relative;
+    z-index: 1 !important;
+    text-align: center;
   }
   .loginForm{
-    
+    z-index: 999;
     width: 500px;
     }
-  
+    .logfooterP{
+      font-size: 10px;
+    }
+    .asideBox{
+      color: white;
+      right: 23%;
+      bottom:24%;
+      position:absolute;
+      padding: 7px;
+      background: rgba(225,225,225,.3);
+      z-index: 1;
+      text-align: center;
+      align-items: center;
+      justify-content: right;
+      width: 70px;
+      border-radius: 8px;
+    }
+    @media only screen  and (max-width: 480px){
+      .loginForm{
+    
+        width: 340px;
+        }
+        .asideBox{display: none;}
+    }
   
   
   
