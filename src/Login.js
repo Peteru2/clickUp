@@ -3,7 +3,7 @@ import "./style.css"
 const Login = () =>{
     return(
         <div className="bg-gray-100 logBody">
-         <nav className="flow-root flex group mb-6 md:mb-10  w-full columns-2  px-7 py-6 my-1">
+         <nav className="flow-root flex group mb-9   md:mb-10  w-full columns-2  px-7 py-6 my-1">
        
        <div className="float-left flex">
 
@@ -40,6 +40,7 @@ const Login = () =>{
             <div className="flex items-center border rounded px-3 mt-4 py-2">
             <i className="fa fa-lock w-5 h-5 text-gray-400 mr-2 mt-1"></i>
               <input type="password" className="w-full outline-none" placeholder="Password" />
+              <p className="logForgot text-blue-600 flex">Forgot?</p>
             </div>
           </div>
           <button className="bg-blue-600 hover:bg-blue-600 shadow-blue-500 shadow-2xl text-white font-semibold py-4 px-4 rounded w-full">Log in</button>
@@ -54,18 +55,18 @@ const Login = () =>{
       <p>Help</p>
     </div>
     <div className="logDetail">
-    <p className="mt-8 text-white">Don't have an account? sign up</p>
+    <p className="mt-8 text-white">Don't have an account? <b className="pb-1 fadeBorder">Sign up</b></p>
 
    
-    <p className="mt-2 md:mt-20 px-16  md:p-0 text-white logfooterP">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+    <p className="mt-2 md:mt-20 recaptcha  md:p-0 text-white logfooterP">This site is protected by reCAPTCHA and the Google <b className="pb-1 fadeBorder">Privacy Policy</b> and <b className="pb-1 fadeBorder">Terms of Service apply</b>.</p>
     </div>
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"  preserveAspectRatio="none" style={{ position: "absolute", top:390, left: 0, width: "100%", height: "50%" }}>
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"  preserveAspectRatio="none" style={{ position: "absolute", top:392, left: 0, width: "100%", height: "50%" }}>
   <defs>
     <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style={{ stopColor: "rgb(37 99 235)", stopOpacity: 1 }} />
       <stop offset="100%" style={{ stopColor: "rgb(217 70 239)", stopOpacity: 1 }} />
     </linearGradient>
-    <pattern id="dots-pattern" width="4" height="3" patternUnits="userSpaceOnUse" style={{ position: "absolute", top:320, left: 0, width: "100%", height: "100%" }}>
+    <pattern id="dots-pattern" width="4" height="3" patternUnits="userSpaceOnUse" >
       <circle cx="1" cy="2" r="0.4" fill="rgba(0,0,0,.2)"  />
     </pattern>
   </defs>
