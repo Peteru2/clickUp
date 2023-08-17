@@ -19,7 +19,7 @@ const Login = () =>{
         
          <li className=" hidden md:block px-2 py-2 mt-3 mr-4 rounded-lg">Don't have an account?</li>
     
-        <li className="   px-3 py-2 mt-3 rounded-lg bg-blue-600 text-white shadow-blue-300 shadow-xl"><Link to={"./SignUp"}>Sign Up</Link></li>
+        <li className="   px-3 py-2 mt-3 rounded-lg bg-blue-600 hover:bg-blue-700 text-white shadow-blue-300 shadow-xl"><Link to={"./SignUp"}>Sign Up</Link></li>
          </div>
          
  
@@ -45,8 +45,8 @@ const Login = () =>{
               <p className="logForgot text-blue-600 flex">Forgot?</p>
             </div>
           </div>
-          <button className="bg-blue-600 hover:bg-blue-600 shadow-blue-500 shadow-2xl text-white font-semibold py-4 px-4 rounded w-full">Log in</button>
-          <p className="text-center mt-6 sso">or log in with SSO</p>
+          <button className="bg-blue-600 hover:bg-blue-700 shadow-blue-500 shadow-2xl text-white font-semibold py-4 px-4 rounded w-full">Log in</button>
+          <p className="text-center mt-6 sso"><Link to={"./SignUp/sso"}>or log in with SSO</Link></p>
 
         </form>
       </div>
