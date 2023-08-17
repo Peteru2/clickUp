@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 const SSO = () => {
     return (  
         <section className="bg-gray-100 logBody">
-         <nav className="flow-root flex group mb-35   md:mb-32  w-full columns-2  px-7 py-6 my-1">
+         <nav className="flow-root flex group mb-32   md:mb-32  w-full columns-2  px-7 py-6 my-1">
        
        <div className="float-left flex">
 
@@ -46,10 +46,10 @@ const SSO = () => {
    
     <div className="logDetail">
     <p className="mt-8 text-white">
-    <span className="samsung mr-10">SAMSUNG</span>
+    <span className="samsung mr-4 md:mr-10">SAMSUNG</span>
         
-        <span className="booking mr-10">Booking.com</span>
-        <span className="ibm mr-10">IBM</span>
+        <span className="booking mr-4 md:mr-10">Booking.com</span>
+        <span className="ibm mr-4 md:mr-10">IBM</span>
         <span className="padres">PADRES</span>
 
 
@@ -59,7 +59,7 @@ const SSO = () => {
    
     <p className="mt-2 md:mt-8 md:p-0 text-gray-200 signfoot">See why 1,000,000+ teams are more productive with ClickUp.</p>
     </div>
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"  preserveAspectRatio="none" style={{ position: "absolute", top:392, left: 0, width: "100%", height: "50%" }}>
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"  preserveAspectRatio="none" style={{ position: "absolute", top:392, left: 0, width: "100%", height: "45%" }}>
   <defs>
     <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style={{ stopColor: "rgb(37 99 235)", stopOpacity: 1 }} />
