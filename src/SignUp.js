@@ -81,7 +81,7 @@ const SignUp = () => {
     </p>
 
    
-    <p className="mt-2 md:mt-8 recaptcha md:p-0 text-gray-200 logfooter">See why 1,000,000+ teams are more productive with ClickUp.</p>
+    <p className="mt-2 md:mt-8 recaptcha md:p-0 text-gray-200 signfoot">See why 1,000,000+ teams are more productive with ClickUp.</p>
     </div>
      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"  preserveAspectRatio="none" style={{ position: "absolute", top:392, left: 0, width: "100%", height: "66%" }}>
   <defs>

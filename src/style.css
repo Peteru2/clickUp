@@ -101,9 +101,13 @@
         }
         .logTerms{
           width: 360px;
+         
         }
         .label{
           font-size: 13px;
+        }
+        .signfoot{
+          font-size: 10px
         }
     }
   
