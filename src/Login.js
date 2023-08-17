@@ -4,8 +4,8 @@ import { Link } from "react-router-dom"
 
 const Login = () =>{
     return(
-        <div className="bg-gray-100 logBody">
-         <nav className="flow-root flex group mb-14   md:mb-10  w-full columns-2  px-7 py-6 my-1">
+        <section className="bg-gray-100 logBody">
+         <nav className="flow-root flex group mb-16   md:mb-10  w-full columns-2  px-7 py-6 my-1">
        
        <div className="float-left flex">
 
@@ -19,7 +19,7 @@ const Login = () =>{
         
          <li className=" hidden md:block px-2 py-2 mt-3 mr-4 rounded-lg">Don't have an account?</li>
     
-        <li className="   px-3 py-2 mt-3 rounded-lg bg-blue-600 text-white shadow-blue-300 shadow-xl"><Link to={"./SignUp.js"}>Sign Up</Link></li>
+        <li className="   px-3 py-2 mt-3 rounded-lg bg-blue-600 text-white shadow-blue-300 shadow-xl"><Link to={"./SignUp"}>Sign Up</Link></li>
          </div>
          
  
@@ -30,7 +30,7 @@ const Login = () =>{
       <div className="bg-white px-10 pt-10 pb-6 md:px-16 md:pt-16 md:pb-7  w-44 rounded-xl shadow-md loginForm ">
         <h2 className="text-3xl font-bold mb-6 text-center">Welcome Back!</h2>
         <form>
-          <div className="mb-4">
+          <div className="mb-4">  
           <label className="my-5 ">Email</label>
             <div className="flex items-center border rounded-xl px-3 mt-4 py-2">
             <i className="fa fa-envelope w-5 h-5 text-gray-400 mr-2 mt-1"></i>
@@ -62,7 +62,7 @@ const Login = () =>{
    
     <p className="mt-2 md:mt-20 recaptcha hidden md:block md:p-0 text-white logfooterP">This site is protected by reCAPTCHA and the Google <b className="pb-1 fadeBorder"><Link> Privacy Policy</Link></b> and <b className="pb-1 fadeBorder"><Link>Terms of Service apply</Link></b>.</p>
     </div>
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"  preserveAspectRatio="none" style={{ position: "absolute", top:392, left: 0, width: "100%", height: "52%" }}>
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"  preserveAspectRatio="none" style={{ position: "absolute", top:392, left: 0, width: "100%", height: "55%" }}>
   <defs>
     <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style={{ stopColor: "rgb(37 99 235)", stopOpacity: 1 }} />
@@ -76,7 +76,7 @@ const Login = () =>{
 
   <rect x="8" y="15" width="100%" height="100%" fill="url(#dots-pattern)" />
 </svg>
-        </div>
+        </section>
     )
 }
 export default Login

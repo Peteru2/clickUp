@@ -36,7 +36,7 @@
   }
   .loginForm{
     z-index: 999;
-    width: 500px;
+    width: 515px;
     }
     .logfooterP{
       font-size: 10px;
@@ -67,6 +67,26 @@
       cursor: pointer;
       font-size: 13px
     }
+    .logTerms{
+      font-size: 12px;
+      position: relative;
+      z-index: 1;
+      width: 515px
+    }
+    .ibm {
+      font-family: Arial, sans-serif;
+      color: #FFFFFF;
+      letter-spacing: -1px;
+      font-size: 18px;
+      text-shadow: -3px 3px 0 rgba(0, 0, 0, 0.1);
+    }
+    .samsung, .booking, .padres{
+      font-weight: bold;
+      font-size: 12px;
+      /* margin-left: 30px; */
+
+    }
+    
     @media only screen  and (max-width: 480px){
       .loginForm{
     
