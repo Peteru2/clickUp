@@ -19,7 +19,7 @@ const SignUp = () => {
         
          <li className=" hidden md:block px-2 py-2 mt-3 mr-4 rounded-lg">Already playing with ClickUp?</li>
     
-        <li className="   px-3 py-2 mt-3 rounded-lg bg-blue-600 text-white shadow-blue-300 shadow-xl"><Link to={"./Login"}>Login</Link></li>
+        <li className="   px-3 py-2 mt-3 rounded-lg bg-blue-600 text-white shadow-blue-300 shadow-xl"><Link to={"../Login"}>Login</Link></li>
          </div>
          
  
@@ -61,7 +61,7 @@ const SignUp = () => {
       </div>
     </div>
     <div className="justify-center items-center flex ">
-    <p className="text-center   py-2 text-gray-500 logTerms bg-gray-50 rounded-br-xl rounded-bl-xl ">By clicking the button above, you aggree to our <b className="">Terms of Service</b> and <b>Privacy Policy</b></p>
+    <p className="text-center   py-2 text-gray-500 logTerms bg-gray-50 rounded-br-xl rounded-bl-xl ">By clicking the button above, you aggree to our <u className="">Terms of Service</u> and <u>Privacy Policy</u></p>
     </div>
     
     <div className="asideBox  font-bold">
@@ -81,7 +81,7 @@ const SignUp = () => {
     </p>
 
    
-    <p className="mt-2 md:mt-8 recaptcha md:p-0 text-gray-200 signfoot">See why 1,000,000+ teams are more productive with ClickUp.</p>
+    <p className="mt-2 md:mt-8 md:p-0 text-gray-200 signfoot">See why 1,000,000+ teams are more productive with ClickUp.</p>
     </div>
      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"  preserveAspectRatio="none" style={{ position: "absolute", top:392, left: 0, width: "100%", height: "66%" }}>
   <defs>

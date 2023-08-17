@@ -19,7 +19,7 @@ const Login = () =>{
         
          <li className=" hidden md:block px-2 py-2 mt-3 mr-4 rounded-lg">Don't have an account?</li>
     
-        <li className="   px-3 py-2 mt-3 rounded-lg bg-blue-600 text-white shadow-blue-300 shadow-xl"><Link to={"./SignUp"}>Sign Up</Link></li>
+        <li className="   px-3 py-2 mt-3 rounded-lg bg-blue-600 text-white shadow-blue-300 shadow-xl"><Link to={"../SignUp"}>Sign Up</Link></li>
          </div>
          
  
