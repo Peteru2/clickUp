@@ -27,26 +27,26 @@ const SignUp = () => {
      </nav>
 
      <div className=" flex justify-center items-center ">
-      <div className="bg-white px-10 pt-10 pb-5 md:px-16 md:pt-16 md:pb-0  w-44 rounded-tr-xl rounded-tl-xl shadow-md loginForm ">
+      <div className="bg-white px-10 pt-10 pb-5 md:px-16 md:pt-16 md:pb-5  w-44 rounded-tr-xl rounded-tl-xl shadow-md loginForm ">
         <h2 className="text-3xl font-bold mb-6 text-center">Lets Go!</h2>
         <form>
-          <div className="mb-4">
-          <label className="my-5 ">Full Name</label>
-            <div className="flex items-center border rounded-xl px-3 mt-4 py-2">
+          <div className="mb-6">
+          <label className="my-5 label">Full Name</label>
+            <div className="flex items-center border rounded-xl px-3 mt-1 py-2">
             <i className="fa fa-user w-5 h-5 text-gray-400 mr-2 mt-1"></i>
               <input type="text" className="w-full outline-none" placeholder="John Doe" />
             </div>
           </div>
-          <div className="mb-4">
-          <label className="my-5 ">Email</label>
-            <div className="flex items-center border rounded-xl px-3 mt-4 py-2">
+          <div className="mb-6">
+          <label className="my-5 label">Email</label>
+            <div className="flex items-center border rounded-xl px-3 mt-1 py-2">
             <i className="fa fa-envelope w-5 h-5 text-gray-400 mr-2 mt-1"></i>
               <input type="text" className="w-full outline-none" placeholder="example@site.com" />
             </div>
           </div>
           <div className="mb-6">
-          <label className="my-5">Choose Password   </label>
-            <div className="flex items-center border rounded-xl px-3 mt-4 py-2">
+          <label className="my-5 label">Choose Password   </label>
+            <div className="flex items-center border rounded-xl px-3 mt-1 py-2">
             <i className="fa fa-lock w-5 h-5 text-gray-400 mr-2 mt-1"></i>
               <input type="password" className="w-full outline-none" placeholder="Minimum 8 characters" />
               <p className="logForgot text-blue-600 flex">Show</p>
@@ -81,7 +81,7 @@ const SignUp = () => {
     </p>
 
    
-    <p className="mt-2 md:mt-8 recaptcha hidden md:block md:p-0 text-gray-200 logfooter">See why 1,000,000+ teams are more productive with ClickUp.</p>
+    <p className="mt-2 md:mt-8 recaptcha md:p-0 text-gray-200 logfooter">See why 1,000,000+ teams are more productive with ClickUp.</p>
     </div>
      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"  preserveAspectRatio="none" style={{ position: "absolute", top:392, left: 0, width: "100%", height: "66%" }}>
   <defs>
