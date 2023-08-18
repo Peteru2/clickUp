@@ -10,7 +10,7 @@ const Login = () =>{
        <div className="float-left flex">
 
         <img src={img} className=" w-8 ml-0" alt="Home" />
-        <h2 className="font-bold ml-1 text-3xl">Click Up  </h2>
+        <h2 className="font-bold ml-1 text-2xl md:text-3xl ">Click Up  </h2>
         
        </div>
       

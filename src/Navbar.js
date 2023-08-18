@@ -8,7 +8,7 @@ const Navbar = () => {
 
    const [name, setState] = useState(true) 
    const [sideBar, setSideBar] = useState(true)
-   const [activePage, setActivePage] = useState('home')
+   
    
     const [showContent, setShowContent] = useState(false);
   
