@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import  NavMenu from "./navMenu.js";
 import "./Nav.css";
 import { useState } from "react";
@@ -8,9 +8,8 @@ const Navbar = () => {
 
    const [name, setState] = useState(true) 
    const [sideBar, setSideBar] = useState(true)
-   
-   
     const [showContent, setShowContent] = useState(false);
+    const location = useLocation();
   
     const toggleContent = () => {
       setShowContent(!showContent);
@@ -43,7 +42,7 @@ const Navbar = () => {
         <div 
             onMouseEnter={() => setSideBar(false)} 
             onMouseLeave={() => setSideBar(true)}
-            className={ sideBar ? "  topSideBar ":"topSideBar active py-4 mr-3 topSideIcon " }>
+            className={ sideBar ? "  topSideBar ":"topSideBar active py-4 mr-3 topSideIcon text-left" }>
 
             <div className="px-3 py-1 rounded bg-gray-400">
               <i className = "fa fa-search mr-4"></i>search
@@ -75,7 +74,7 @@ const Navbar = () => {
         <ul className="flex">
           {NavMenu.map((item, index) =>{
             return(
-              <li key={index} className=" py-4 hover:border-b-4">
+              <li key={index} className={`py-4 hover:border-b-4  ${location.pathname === item.url ? 'border-b-4 border-blue-600 text-blue-600' : ''}`}>
               <Link className="px-8 border-l-2">{item.title}</Link>
              
             </li>

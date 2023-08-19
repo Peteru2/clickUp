@@ -9,7 +9,7 @@ const Load = () => {
       // Simulate loading delay for 2 seconds
       setTimeout(() => {
         setLoading(false);
-      }, 2000);
+      }, 3000);
     }, []);
   
     return (
