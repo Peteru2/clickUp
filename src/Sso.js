@@ -28,7 +28,7 @@ const SSO = () => {
      </nav>
 
      <div className=" flex justify-center items-center ">
-      <div className="bg-white px-10 pt-10 pb-5 md:px-16 md:pt-16 md:pb-5  w-44 rounded-xl  shadow-md loginForm ">
+      <div className="bg-white px-10 pt-10 pb-5 md:px-16 md:pt-16 md:pb-5  w-2 rounded-xl  shadow-md loginForm ">
         <h2 className="text-3xl font-bold mb-6 text-center">Lets Go!</h2>
         <form>
          
@@ -37,10 +37,9 @@ const SSO = () => {
           <p className="text-center mt-6 sso"><Link to={"/"}>or sign up without SSO</Link></p>
          
         </form>
-      
-      
+  
       </div>
-        <div className="  font-bold mt-16 ml-2 bg-red-400 p-4 rounded-lg ssoAside">
+      <div className="SsoAsideBox hidden md:block  font-bold">
       <p className="border-2 text- rounded-md mx-4">?</p>
       <p>Help</p>
     </div>

@@ -34,14 +34,14 @@
     z-index: 1 !important;
     text-align: center;
   }
-  .loginForm{
+  /* .loginForm{
     z-index: 999;
     width: 515px;
-    }
+    } */
     .logfooterP{
       font-size: 10px;
     }
-    .asideBox{
+    /* .asideBox{
       color: white;
       right: 420px;
       bottom:187px;
@@ -54,15 +54,63 @@
       justify-content: right;
       width: 65px;
       border-radius: 8px;
+    } */
+    .loginForm {
+      z-index: 999;
+      max-width: 515px; 
+      width: 100%;
+      flex-direction: column; /* Set width to 100% */
+    }
+    
+    .LogAsideBox {
+      color: white;
+      width: 10px;
+      left: 10px; 
+      top: 188px; 
+      display: flex;
+      flex-direction: column;
+      position: relative !important; 
+      padding: 8px 22px;
+      background: rgba(225, 225, 225, 0.3);
+      z-index: 1;
+      text-align: center;
+      align-items: center;
+      justify-content: right; /* This property is not applicable */
+     /* Set width to auto */
+      border-radius: 8px;
+      
+    }
+   
+    .SsoAsideBox {
+      color: white;
+      width: 10px;
+      left: 10px; 
+      top: 93px; 
+      /* display: flex; */
+      /* flex-direction: column; */
+      position: relative !important; 
+      padding: 8px 22px;
+      background: rgba(225, 225, 225, 0.3);
+      z-index: 1;
+      text-align: center;
+      align-items: center;
+      justify-content: right; /* This property is not applicable */
+     /* Set width to auto */
+      border-radius: 8px;
+      
     }
     .logForgot{
       font-size: 13px;
       color: blue
     }
     .ssoAside{
-      
+      font-size: 12px;
     position: relative;
     z-index: 1 !important;
+    right: 1px;
+    bottom: -67px;
+    color: white;
+    background: rgba(225,225,225,.3);
    
 
     }
@@ -168,6 +216,9 @@
         }
         .signfoot{
           font-size: 12px
+        }
+        .SsoAsideBox, .LogAsideBox{
+          display: none;
         }
     }
     @media only screen  and (max-width: 400px){

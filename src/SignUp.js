@@ -59,15 +59,13 @@ const SignUp = () => {
       
         
       </div>
+     
     </div>
     <div className="justify-center items-center flex ">
     <p className="text-center   py-2 text-gray-500 logTerms bg-gray-50 rounded-br-xl rounded-bl-xl ">By clicking the button above, you aggree to our <u className="">Terms of Service</u> and <u>Privacy Policy</u></p>
     </div>
     
-    <div className="asideBox  font-bold">
-      <p className="border-2 text- rounded-md mx-4">?</p>
-      <p>Help</p>
-    </div>
+   
     <div className="logDetail">
     <p className="mt-8 text-white">
     <span className="samsung mr-10">SAMSUNG</span>

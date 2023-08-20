@@ -26,7 +26,7 @@ const Login = () =>{
        </ul>
      </nav>
 
-     <div className=" flex justify-center items-center ">
+     <div className=" flex flex-wrap justify-center items-center ">
       <div className="bg-white px-10 pt-10 pb-6 md:px-16 md:pt-16 md:pb-7  w-44 rounded-xl shadow-md loginForm ">
         <h2 className="text-3xl font-bold mb-6 text-center">Welcome Back!</h2>
         <form>
@@ -50,12 +50,13 @@ const Login = () =>{
 
         </form>
       </div>
-    
-    </div>
-    <div className="asideBox  font-bold">
+        <div className="LogAsideBox hidden md:block  font-bold">
       <p className="border-2 text- rounded-md mx-4">?</p>
       <p>Help</p>
     </div>
+    
+    </div>
+  
     <div className="logDetail">
     <p className="mt-8 text-white">Don't have an account? <b className="pb-1 fadeBorder"><Link>Sign up</Link></b></p>
 
