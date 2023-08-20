@@ -6,7 +6,7 @@ const NavSec = () => {
        
       <div className="float-left">
         <i className="fa fa-search mr-4"></i>
-        <input type = "text" placeholder="search tasks..." className="outline-none" />
+        <input type = "text" placeholder="Search tasks..." className="outline-none" />
         <button className="rounnded-lg hover:bg-gray-400 outline-none ">...</button>
         <span className="border-r-2 ml-4"></span>
       </div>

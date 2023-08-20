@@ -28,9 +28,9 @@ const Navbar = () => {
     
    return (
    
-      <nav className={name ? " flow-root flex group bg-white w-full columns-2 border-b-2 px-4": "pl-24"}>
+      <nav className={name ? "  justify-between flex group bg-white w-full columns-2 border-b-2 px-4": "pl-24"}>
        
-        <ul className="float-left flex">
+        <ul className=" flex">
           <div className="group">
         <li  
             onMouseEnter={() => setSideBar(false)} 
@@ -86,7 +86,7 @@ const Navbar = () => {
         </ul>
         <ul className="float-right flex">
           <div  className=" flex ">          
-          <li className="  border-2 px-2 py-1 mt-3 mr-4 rounded-lg">Action <button className="border-l-2 px-1"><i className="fa fa-share-alt"></i></button> </li>
+          {/* <li className="  border-2 px-2 py-1 mt-3 mr-4 rounded-lg">Action <button className="border-l-2 px-1"><i className="fa fa-share-alt"></i></button> </li> */}
       
           <li className="  border-2 px-2 py-1 mt-3 rounded-lg"><i className="fa fa-share-alt"></i> Share</li>
           </div>

@@ -81,7 +81,7 @@ const SignUp = () => {
    
     <p className="mt-2 md:mt-8 md:p-0 text-gray-200 signfoot">See why 1,000,000+ teams are more productive with ClickUp.</p>
     </div>
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"  preserveAspectRatio="none" style={{ position: "absolute", top:392, left: 0, width: "100%", height: "66%" }}>
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"  preserveAspectRatio="none" style={{ position: "absolute", top:392, left: 0, width: "100%", height: "70%" }}>
   <defs>
     <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style={{ stopColor: "rgb(37 99 235)", stopOpacity: 1 }} />
