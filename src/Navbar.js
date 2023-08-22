@@ -44,8 +44,8 @@ const Navbar = () => {
             onMouseLeave={() => setSideBar(true)}
             className={ sideBar ? "  topSideBar ":"topSideBar active py-4 mr-3 topSideIcon text-left" }>
 
-            <div className="px-3 py-1 rounded bg-gray-400">
-              <i className = "fa fa-search mr-4"></i>search
+            <div className="px-3 py-1 rounded bg-gray-200 flex text-gray-400 hover:text-blue-400">
+              <i className = "fa fa-search mr-4 mt-1"></i><span>Search</span><span className="ml-auto">Ctrl K</span>
             </div>
              <div className=" px-3 mt-2">
              <i className = "fa fa-home mr-4"></i> Home
@@ -68,7 +68,7 @@ const Navbar = () => {
                </div>
 
         </div>
-        <li className="py-4 mr-3 font-bold text-lg">Everything</li>
+        <li className="py-4 mr-3  text-gray-600 text-lg">Everything</li>
         
         </ul>
         <ul className="flex">
