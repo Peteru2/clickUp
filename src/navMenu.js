@@ -4,25 +4,25 @@ const NavMenu =
                 title : "List",
                 url: "/",
                 cName : "nav-links",
-                icon: "",
+                icon: "fa fa-list",
             },
             {
                 title : "Board",
                 url: "/About",
                 cName : "nav-links",
-                icon: "",
+                icon: "fa fa-border-all",
             },
             {
                 title : "Calender",
                 url: "/History",
                 cName : "nav-links",
-                icon: "",
+                icon: "fa fa-calendar-o",
             },
             {
                 title : "View",
                 url: "/History",
                 cName : "nav-links",
-                icon: "",
+                icon: "fa fa-plus",
             },
 
             

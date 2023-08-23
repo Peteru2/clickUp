@@ -146,7 +146,22 @@
       border-radius: 50%;
       animation: imageResize 1s linear infinite;
     }
-
+    .circle-font{
+      font-size: 19px;
+    }
+    .flag-icon{
+      margin: 0 68px;
+      /* display: none */
+    }
+    .calender-icon{
+      margin: 0 85px;
+    }
+    .user-icon{
+      margin: 0 70px;
+    }
+    .taskBeside{
+      box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.15);
+    }
     @keyframes spin {
       0% {
         transform: rotate(0deg);
@@ -176,7 +191,7 @@
 }
   .DownTask{
     position: fixed;
-    bottom: 50px;
+    bottom:0px;
     right: 30px
   }
    @media only screen  and (max-width: 650px){

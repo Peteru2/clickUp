@@ -13,11 +13,13 @@ const NavSec = () => {
      
       <div className="float-right flex ">
              
-          <span className="mr-4 text-sm"><i className=""></i>Filter</span>
-          <span className="mr-4 text-sm bg-gray-100 py-0.5 px-2 text-purple-500 rounded-md"><i className=""></i>Group by: Status</span>
-          <span className="mr-4 text-sm"><i className=""></i>Subtasks</span>
-          <span className="mr-4 text-sm"><i className=""></i>Show</span>
-          <span className="mr-4 text-sm"><i className=""></i>...</span>
+          <span className="mr-4 text-xs p-1 hover:bg-gray-200 rounded-md cursor-pointer"><i className="fa fa-filter text-gray-400"></i> Filter</span>
+          <span className="mr-4 text-xs bg-gray-100 py-1 px-2 text-purple-500 rounded-md cursor-pointer"><i className="fa fa-layer-group"></i> Group by: Status</span>
+          <span className="mr-4 text-xs p-1 hover:bg-gray-200 rounded-md cursor-pointer"><i className="fa fa-diagram-successor text-gray-400"></i> Subtask</span>
+          <span className="mr-4 text-xs p-1 hover:bg-gray-200 rounded-md cursor-pointer"><i className="fa fa-eye text-gray-400"></i> Show</span>
+          <span className="mr-4 text-sm p-1 hover:bg-gray-200 rounded-md cursor-pointer"><i className="fa fa-ellipsis text-gray-600 "></i></span>
+
+         
 
 
       </div>
