@@ -13,8 +13,8 @@ const NavMenu =
                 icon: "fa fa-border-all",
             },
             {
-                title : "Calender",
-                url: "/History",
+                title : "Calendar",
+                url: "/Calendar",
                 cName : "nav-links",
                 icon: "fa fa-calendar-o",
             },

@@ -8,6 +8,8 @@ import SignUp from './SignUp';
 import SSO from './Sso';
 import Load from './LoadLogin';
 import Board from './Board';
+
+import CalendarPage from './Calendar';
 function App() {
   return (
    <>
@@ -17,7 +19,7 @@ function App() {
       <Route path ="/SignUp/Sso" element = {<SSO />} />
       <Route path ="/List" element = {<Load />} />
       <Route path ="/Board" element = {<Board />} />
-
+      <Route path ="/Calendar" element = {<CalendarPage />} />
       
       
 

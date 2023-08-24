@@ -216,8 +216,54 @@
   .scrollbar-style {
     scrollbar-color: #6b7280 #f3f4f6;
   }
-  
-  
+  .day-cell {
+  width: 300px;
+  height: 150px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items:flex-end;
+  border: thin solid rgb(230, 227, 227);
+  border-top: none;
+  margin: 0;
+  padding: 2px;
+}
+
+.days-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: .5rem 0rem;
+  background-color: #f0f0f0;
+  position: sticky;
+
+  top: 0;
+  z-index: 1;
+}
+.react-calendar__month-view__weekdays {
+  display: none;
+  border-top: 1px solid gray;
+  /* visibility: hidden; */
+  /* opacity: 0; */
+}
+.hover-content {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  color: black;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 4px;
+  white-space: nowrap;
+}
+
+.day-cell:hover .hover-content {
+  display: block;
+}
+.current-day {
+  border-color: blue; /* Change this to the desired border color */
+}
    @media only screen  and (max-width: 650px){
      .SsoAsideBox, .LogAsideBox{
         display: none;
