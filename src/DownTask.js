@@ -10,6 +10,12 @@ const Task = () => {
                     </div>
                     </div>
                 </div>
+                <div className="flex p-2 bg-purple-400 rounded-lg text-white cursor-pointer DownLeftTask">
+                        <span>
+                            <i className="fa fa-plane mr-2 "></i>
+                            <span className="bg-white rounded-lg text-purple-400 text-sm px-1">1/2</span>
+                        </span>
+                </div>
         </>
      );
 }

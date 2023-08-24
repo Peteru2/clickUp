@@ -194,6 +194,11 @@
     bottom: 37px;
     right: 30px
   }
+  .DownLeftTask{
+    position: fixed;
+    bottom: 37px;
+    left: 30px
+  }
   .scrollbar-style::-webkit-scrollbar {
     width: 8px; /* Adjust the width as needed */
   }
