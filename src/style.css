@@ -204,7 +204,7 @@
   }
   
   .scrollbar-style::-webkit-scrollbar-thumb {
-    background-color: #6b7280; /* Change the color */
+    background-color: #adb2bc; /* Change the color */
     border-radius: 6px; /* Rounded corners */
   }
   

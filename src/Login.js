@@ -45,7 +45,7 @@ const Login = () =>{
               <p className="logForgot text-blue-600 flex">Forgot?</p>
             </div>
           </div>
-          <button className="bg-blue-600 hover:bg-blue-700 shadow-blue-500 shadow-2xl text-white font-semibold py-4 px-4 rounded w-full">Log in</button>
+          <Link to={"./List"} class> <button className="bg-blue-600 hover:bg-blue-700 shadow-blue-500 shadow-2xl text-white font-semibold py-4 px-4 rounded w-full">Click to Log in</button></Link>
           <p className="text-center mt-6 sso"><Link to={"./SignUp/sso"}>or log in with SSO</Link></p>
 
         </form>

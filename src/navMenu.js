@@ -2,7 +2,7 @@ const NavMenu =
         [
             {
                 title : "List",
-                url: "/",
+                url: "/List",
                 cName : "nav-links",
                 icon: "fa fa-list",
             },
