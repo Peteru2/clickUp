@@ -191,9 +191,28 @@
 }
   .DownTask{
     position: fixed;
-    bottom:0px;
+    bottom: 37px;
     right: 30px
   }
+  .scrollbar-style::-webkit-scrollbar {
+    width: 8px; /* Adjust the width as needed */
+  }
+  
+  .scrollbar-style::-webkit-scrollbar-thumb {
+    background-color: #6b7280; /* Change the color */
+    border-radius: 6px; /* Rounded corners */
+  }
+  
+  .scrollbar-style::-webkit-scrollbar-track {
+    background-color: #f3f4f6; /* Change the color */
+  }
+  
+  /* Add these styles for Firefox */
+  .scrollbar-style {
+    scrollbar-color: #6b7280 #f3f4f6;
+  }
+  
+  
    @media only screen  and (max-width: 650px){
      .SsoAsideBox, .LogAsideBox{
         display: none;

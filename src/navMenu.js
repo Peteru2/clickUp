@@ -8,7 +8,7 @@ const NavMenu =
             },
             {
                 title : "Board",
-                url: "/About",
+                url: "/Board",
                 cName : "nav-links",
                 icon: "fa fa-border-all",
             },
