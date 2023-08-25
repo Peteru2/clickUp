@@ -301,6 +301,16 @@
         .SsoAsideBox, .LogAsideBox{
           display: none;
         }
+        .flag-icon{
+          margin-left:50px
+          /* display: none */
+        }
+        .calender-icon{
+          margin-left: 70px;
+        }
+        .user-icon{
+          margin-left: 320px;
+        }
     }
     @media only screen  and (max-width: 400px){
       .loginForm{

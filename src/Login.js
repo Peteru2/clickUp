@@ -63,18 +63,17 @@ const Login = () =>{
    
     <p className="mt-2 md:mt-20 recaptcha hidden md:block md:p-0 text-white logfooterP">This site is protected by reCAPTCHA and the Google <b className="pb-1 fadeBorder"><Link> Privacy Policy</Link></b> and <b className="pb-1 fadeBorder"><Link>Terms of Service apply</Link></b>.</p>
     </div>
-     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"  preserveAspectRatio="none" style={{ position: "absolute", top:392, left: 0, width: "100%", height: "55%" }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" style={{ position: "absolute", top: 392, left: 0, width: "100%", height: "55%" }}>
   <defs>
     <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style={{ stopColor: "rgb(37 99 235)", stopOpacity: 1 }} />
       <stop offset="100%" style={{ stopColor: "rgba(192, 38, 211,.7)", stopOpacity: 1 }} />
     </linearGradient>
-    <pattern id="dots-pattern" width="4" height="3" patternUnits="userSpaceOnUse" >
-      <circle cx="1" cy="2" r="0.4" fill="rgba(0,0,0,.2)"  />
+    <pattern id="dots-pattern" width="0.02" height="0.02" patternUnits="objectBoundingBox">
+      <circle cx="0.5" cy="0.5" r="0.2" fill="rgba(0,0,0,.1)" />
     </pattern>
   </defs>
   <path d="M0,80 Q0,10 70,1 H70 Q95,0 100,20 V100 H0 Z" fill="url(#grad1)" />
-
   <rect x="8" y="15" width="100%" height="100%" fill="url(#dots-pattern)" />
 </svg>
         </section>
