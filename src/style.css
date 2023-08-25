@@ -311,6 +311,10 @@
         .user-icon{
           margin-left: 320px;
         }
+         .DownTask{
+         
+          right: 50px
+       }
     }
     @media only screen  and (max-width: 400px){
       .loginForm{

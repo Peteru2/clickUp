@@ -7,7 +7,7 @@ const Board = () => {
          <Navbar />
          <NavSec />
          <section className=" mt-6 mx-10">
-            <section className="flex ">
+            <section className="md:flex grid grid-col-1 ">
                     <div className="w-72 border-t-4 shadow-md p-3 rounded-md group">
                         <p className="flex text-gray-700 ">TO DO <span className="ml-3 border-2 rounded-full px-2">5</span> 
                             <span className="ml-auto opacity-0 group-hover:opacity-100">
@@ -17,7 +17,7 @@ const Board = () => {
                             </span>
                         </p>
                     </div>
-                    <div className="w-72 ml-6 border-t-4 border-blue-500 shadow-md p-3 rounded-md group">
+                    <div className="w-72 md:ml-6 ml-0 mt-4 md:mt-0 border-t-4 border-blue-500 shadow-md p-3 rounded-md group">
                         <p className="flex text-gray-700 ">IN PROGRESS<span className="ml-3 border-2 rounded-full px-2">1</span> 
                             <span className="ml-auto opacity-0 group-hover:opacity-100">
                                 <i className="fa fa-chevron-left px-2 py-1.5 rounded hover:bg-gray-200 cursor-pointer"></i>
@@ -26,7 +26,7 @@ const Board = () => {
                             </span>
                         </p>
                     </div>
-                    <div className="w-72 ml-6 border-t-4 border-green-500 shadow-md p-3 rounded-md group">
+                    <div className="w-72 md:ml-6 ml-0 mt-4 md:mt-0 border-t-4 border-green-500 shadow-md p-3 rounded-md group">
                         <p className="flex text-gray-700 ">COMPLETE <span className="ml-3 border-2 rounded-full px-2">0</span> 
                             <span className="ml-auto opacity-0 group-hover:opacity-100">
                                 <i className="fa fa-chevron-left px-2 py-1.5 rounded hover:bg-gray-200 cursor-pointer"></i>
@@ -37,7 +37,7 @@ const Board = () => {
                     </div>
             </section>
 
-            <div className="flex mt-7">
+            <div className="md:flex grid  mt-7">
             <div className="h-96  overflow-y-hidden hover:overflow-y-scroll w-72 scrollbar-style">
                 <div ></div>
                     <div className="border-2 shadow-md rounded w-64 group cursor-pointer">
@@ -243,7 +243,7 @@ const Board = () => {
 
             </div>
             <section>
-            <div className="border-2 shadow-md rounded w-64 ml-7 group cursor-pointer">
+            <div className="border-2 shadow-md rounded w-64 md:ml-7 md:mt-0 mt-12 group cursor-pointer">
                         <div className="p-2">
                             <p className="text-xs">Team space > Projects > Project 1</p>
                             <div className="flex">
