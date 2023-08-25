@@ -8,6 +8,7 @@ import "./style.css";
 
 const CalendarPage = () => {
   const [date, setDate] = useState(new Date());
+  console.log(date)
 
   const tileContentFunction = ({ date }) => {
     // Calculate or fetch the content you want to display for each day
