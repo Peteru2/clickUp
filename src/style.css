@@ -67,11 +67,14 @@
       top: 93px; 
       position: relative !important; 
       padding: 8px 22px;
+      display: flex;
+      flex-direction: column;
+
       background: rgba(225, 225, 225, 0.3);
       z-index: 1;
       text-align: center;
       align-items: center;
-      justify-content: right; /* This property is not applicable */
+      justify-content: center; /* This property is not applicable */
      /* Set width to auto */
       border-radius: 8px;
       

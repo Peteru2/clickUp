@@ -40,7 +40,7 @@ const SSO = () => {
   
       </div>
       <div className="SsoAsideBox hidden md:block  font-bold">
-      <p className="border-2  rounded-md mx-4">?</p>
+      <p className="border-2 rounded-md mx-4">?</p>
       <p>Help</p>
     </div>
     </div>
