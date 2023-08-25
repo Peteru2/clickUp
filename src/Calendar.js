@@ -58,12 +58,12 @@ const CalendarPage = () => {
 
           />  
         </div>
-       <div className="grid grid-row3 text-center p-0 border-l">
-                <div className="mb-10">
+       <div className="grid grid-row3 text-center p-0 border-l-2  h-full">
+                <div className="mb-32">
                     <i className="fa fa-bars"></i>
                 </div>
-                <div className="rotate-90 flex"><b>6</b> Unscheduled</div>
-                <div className="rotate-90 flex"><b>6</b> Unscheduled</div>
+                <div className="rotate-90 flex mb-44"><b>6</b> Unscheduled</div>
+                <div className="rotate-90 flex mb-44"><b>0</b> Unscheduled</div>
 
 
        </div>
