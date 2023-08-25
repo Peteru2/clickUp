@@ -214,10 +214,10 @@
   
   /* Add these styles for Firefox */
   .scrollbar-style {
-    scrollbar-color: #6b7280 #f3f4f6;
+    scrollbar-color: #b6b9bf #f3f4f6;
   }
   .day-cell {
-  width: 300px;
+  width: 380px;
   height: 150px;
   position: relative;
   display: flex;
@@ -232,11 +232,10 @@
 .days-header {
   display: flex;
   justify-content: space-between;
-  align-items: start;
-  padding: .5rem 0rem;
+  align-items: flex-start;
+  padding: .5rem .5rem;
   background-color: #f0f0f0;
   position: sticky;
-
   top: 0;
   z-index: 1;
 }

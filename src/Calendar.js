@@ -29,9 +29,9 @@ const CalendarPage = () => {
     <>
      <Navbar />
         <NavSec />
-      <div className=" flex items-center justify-center bg-gray-100 ">
+      <div className=" flex items-center justify-center bg-gray-white  overflow-x-scroll ">
         {/* style={{ height: "400px" }} */}
-        <div className="bg-white  rounded shadow-md overflow-y-scroll mr-10   scrollbar-style"  style={{ height: "750px" }}  >  
+        <div className="bg-white  rounded shadow-md overflow-y-scroll    border-r-2 pr-2 scrollbar-style"  style={{ height: "750px" }}  >  
         <div className="days-header">
             <p>Sunday</p>
             <p>Monday</p>
@@ -55,8 +55,17 @@ const CalendarPage = () => {
             tileContent={tileContentFunction}
             tileClassName={tileClassNameFunction}
 
-          />
+          />  
         </div>
+       <div className="grid grid-row3 text-center p-0 border-l">
+                <div className="mb-10">
+                    <i className="fa fa-bars"></i>
+                </div>
+                <div className="rotate-90 flex"><b>6</b> Unscheduled</div>
+                <div className="rotate-90 flex"><b>6</b> Unscheduled</div>
+
+
+       </div>
       </div>
       <Task />
     </>
