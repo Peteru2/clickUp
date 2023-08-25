@@ -80,7 +80,7 @@
       font-size: 13px;
       color: blue
     }
-    .ssoAside{
+    /* .ssoAside{
       font-size: 12px;
     position: relative;
     z-index: 1 !important;
@@ -90,7 +90,7 @@
     background: rgba(225,225,225,.3);
    
 
-    }
+    } */
     .fadeBorder{
       border-bottom: 1px solid rgba(225,225,225,.5);
     }

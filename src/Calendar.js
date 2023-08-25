@@ -63,7 +63,7 @@ const CalendarPage = () => {
                     <i className="fa fa-bars"></i>
                 </div>
                 <div className="rotate-90 flex mb-44"><b>6</b> Unscheduled</div>
-                <div className="rotate-90 flex mb-44"><b>0</b> Unscheduled</div>
+                <div className="rotate-90 flex mb-44"><b>0</b> Overdue</div>
 
 
        </div>
