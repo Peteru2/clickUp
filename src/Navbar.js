@@ -28,7 +28,7 @@ const Navbar = () => {
     
    return (
    
-      <nav className={name ? "flex group bg-white w-full columns-2 border-b-2 px-4": "pl-24"}>
+      <nav className={name ? "flex group bg-white w-full overflow-x-hidden border-b-2 px-4": "pl-24"}>
        
         <ul className=" flex">
           <div className="group">
@@ -70,12 +70,11 @@ const Navbar = () => {
         </div>
         <li className="py-4 mr-3  text-gray-600 text-lg">Everything</li>
         
-        </ul>
-        <ul className="flex">
+    
           {NavMenu.map((item, index) =>{
             return(
-              <li key={index} className={`py-4 hover:border-b-4  ${location.pathname === item.url ? 'border-b-4 border-blue-600 text-blue-600' : ''}`}>
-              <Link className="px-8 border-l-2" to={item.url}><i className={item.icon}></i> {item.title}</Link>
+              <li key={index} className={`py-4 grid-col-1 hover:border-b-4  ${location.pathname === item.url ? 'border-b-4 border-blue-600 text-blue-600' : ''}`}>
+              <Link className="px-2 md:px-8  md:border-l-2" to={item.url}><i className={item.icon}></i> {item.title}</Link>
              
             </li>
             )

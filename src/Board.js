@@ -6,7 +6,7 @@ const Board = () => {
         <>
          <Navbar />
          <NavSec />
-         <section className=" mt-6 mx-10">
+         <section className=" mt-6 w-full md:mx-10 mx-20 justify-center align-center">
             <section className="md:flex grid grid-col-1 ">
                     <div className="w-72 border-t-4 shadow-md p-3 rounded-md group">
                         <p className="flex text-gray-700 ">TO DO <span className="ml-3 border-2 rounded-full px-2">5</span> 
@@ -38,8 +38,8 @@ const Board = () => {
             </section>
 
             <div className="md:flex grid  mt-7">
-            <div className="h-96  overflow-y-hidden hover:overflow-y-scroll w-72 scrollbar-style">
-                <div ></div>
+            <div className="h-96  overflow-y-hidden hover:overflow-y-scroll w-80 scrollbar-style">
+               
                     <div className="border-2 shadow-md rounded w-64 group cursor-pointer">
                         <div className="p-2">
                             <p className="text-xs">Team space > Projects > Project 1</p>
