@@ -74,7 +74,7 @@ const Navbar = () => {
           {NavMenu.map((item, index) =>{
             return(
               <li key={index} className={`py-4 grid-col-1 hover:border-b-4  ${location.pathname === item.url ? 'border-b-4 border-blue-600 text-blue-600' : ''}`}>
-              <Link className="px-2 md:px-8  md:border-l-2" to={item.url}><i className={item.icon}></i> {item.title}</Link>
+              <Link className={ `${item.navMobile} px-2 md:px-8  md:border-l-2`} to={item.url}><i className={item.icon}></i> {item.title}</Link>
              
             </li>
             )

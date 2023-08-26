@@ -6,7 +6,7 @@ const Board = () => {
         <>
          <Navbar />
          <NavSec />
-         <section className=" mt-6 w-full md:mx-10 mx-20 justify-center align-center">
+         <section className=" mt-6  md:mx-10 mx-12 justify-center align-center">
             <section className="md:flex grid grid-col-1 ">
                     <div className="w-72 border-t-4 shadow-md p-3 rounded-md group">
                         <p className="flex text-gray-700 ">TO DO <span className="ml-3 border-2 rounded-full px-2">5</span> 
