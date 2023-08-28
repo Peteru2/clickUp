@@ -28,8 +28,8 @@ const Navbar = () => {
                 return (
                           
                        <li className="nav-list" key = {index}>
-                            <Link  className = {`${item.cName} ${item.NameOfClass}`}  to = {item.url}>
-                                {item.title} <i className={item.icon}></i>
+                            <Link  className = {`flex w-full ${item.cName} ${item.NameOfClass}`}  to = {item.url}>
+                                {item.title} <i className={` ${item.icon} ml-auto`}></i>
                             </Link>
                             </li>
                     
@@ -38,13 +38,13 @@ const Navbar = () => {
             
         </div>
               <div className="ml-auto flex sideContent">
-                <button className="mr-6 font-bold contact">Contact Sales</button>
-                <button className=" rounded-md px-6 text-white bg-blue-500 mr-4 shadow-lg sign">Sign Up</button>
-                <button className="rounded-md px-6 text-black bg-white shadow-lg log">Login</button>
+                <button className="mr-6 font-bold contact my-3">Contact Sales</button>
+                <button className=" rounded-md px-6 py-2 text-white bg-blue-500 mr-4 shadow-lg sign my-8">Sign Up</button>
+                <button className="rounded-md px-6 text-black bg-white shadow-lg log my-8">Login</button>
 
                
               </div>
-               <div className="menu-icon ml-4" onClick={handleClick}>
+               <div className="menu-icon ml-8" onClick={handleClick}>
                <i className = {name ? "fa fa-times" : "fa fa-bars-staggered"} ></i>
            </div>
               </nav>

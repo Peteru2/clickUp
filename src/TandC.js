@@ -32,9 +32,54 @@ const TandC = () => {
                             <p className="text-gray-500 mb-4 text-lg font-bold">Our Terms and Privacy Policy affect your legal rights and obligations. If you do not agree to be bound by all of these, do not access or use our Service.</p>
 
                             <p className="text-gray-500 mb-4 text-lg font-bold">ARBITRATION NOTICE: UNLESS YOU OPT-OUT AND EXCEPT FOR CERTAIN TYPES OF DISPUTES DESCRIBED IN THE ARBITRATION SECTION BELOW, YOU AGREE THAT DISPUTES BETWEEN YOU AND US WILL BE RESOLVED BY BINDING, INDIVIDUAL ARBITRATION AND YOU WAIVE YOUR RIGHT TO PARTICIPATE IN A CLASS ACTION LAWSUIT OR CLASS-WIDE ARBITRATION.</p>
+
+                            <p className="text-gray-600 mb-4 text-xl font-bold">Your User Account and Content</p>
+
+                            <ol  className="px-10" style={{ listStyleType: "decimal" }}>
+                                <li className="text-gray-500 mb-4 text-lg ">You must provide accurate information when you create your Clickup account.</li>
+                                <li className="text-gray-500 mb-4 text-lg ">You are responsible for safeguarding the password and for all activities that occur under your account. You should notify us immediately if you become aware of any breach of security or unauthorized use of your account.</li>
+                                <li className="text-gray-500 mb-4 text-lg ">You may never use another user’s account without permission.</li>
+                                <li className="text-gray-500 mb-4 text-lg ">You may not disassemble, decompile, or reverse engineer the Service or attempt or assist anyone else to do so, unless such restriction is prohibited by law.</li>
+                                <li className="text-gray-500 mb-4 text-lg ">Your account must be registered by a human. Accounts registered by "bots" or other automated methods are not permitted. Additionally, you must be 13 years of age or older.</li>
+                                <li className="text-gray-500 mb-4 text-lg ">You may not use the Service for any illegal or unauthorized purpose. You agree to comply with all laws, rules, and regulations (for example, federal, state, local and provincial) applicable to your use of the Service and your Content (defined below), including but not limited to, copyright laws.</li>
+                                <li className="text-gray-500 mb-4 text-lg ">In the event you have a paid account, fees are non-refundable except as required by law or in the event that you cancel your account during the 30-day money back guarantee period. You will pay all applicable fees when due and, if such fees are being paid via credit card or other electronic means, you authorize us to charge such fees using your selected payment method. By default, customer accounts are set to auto-renew and we may automatically charge you for such renewal on or after the renewal date associated with your account unless you have cancelled the Service prior to its renewal date. We may revise fee rates for the Service from time to time and will provide you with email notice of any changes in fees at least thirty (30) days prior to your Service renewal date. You are responsible for providing complete and accurate billing information to Clickup. We may suspend or terminate your use of the Service if fees become past due. You are responsible for all taxes (excluding taxes on our net income), and we will charge tax if required to do so by law.
+
+                                <p className="mt-5">If you require the use of a purchase order or purchase order number, you (a) must provide the purchase order number at the time of purchase; and (b) agree that any terms and conditions on your purchase order will not apply and are null and void.
+                                </p>
+                                </li>
+
+
+
+
+                            </ol>
+
                         </aside>
                     </div>
                 </div>
+                <footer className="bg-gray-200 w-full  px-20 py-10">
+                    <div className="grid grid-cols-5 gap-4">
+                        <ul className="text-sm">
+                            <li><b>CLICKUP</b></li>
+                            <li className="my-4 text-gray-800 hover:text-blue-500">Download</li>
+                            <li className="my-4 text-gray-800">Careers</li>
+                            <li className="my-4 text-gray-800">About Us</li>
+                            <li className="my-4 text-gray-800">Product Roadmaps</li>
+                            <li className="my-4 text-gray-800">Press</li>
+                        </ul>
+                        <ul className="text-sm">
+                            <li><b>RESOURCES</b></li>
+                        </ul>
+                        <ul className="text-sm">
+                            <li><b>FEATURES</b></li>
+                        </ul>
+                        <ul className="text-sm">
+                            <li><b>COMPARE</b></li>
+                        </ul>
+                        <ul className="text-sm">
+                            <li><b>LEARN</b></li>
+                        </ul>
+                        </div>
+                </footer>
             </section>
         </>
      );
