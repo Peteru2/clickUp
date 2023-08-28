@@ -4,7 +4,7 @@ const TandC = () => {
         <>
             <Navbar />
             <section className="mt-20 w-full">
-                <div className="mx-20">
+                <div className="md:mx-20 mx-8">
                     <div className="grid grid-cols-8 ">
                         <div className="col-span-2 bg-white termsList mt-9 shadow-lg p-8 fixed">
                                 <p className="text-xl text-gray-500 font-bold">Policies</p>
