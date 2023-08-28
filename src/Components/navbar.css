@@ -145,17 +145,25 @@ display: flex;
             display: block
     }
     .Login{
+        display: block;
     text-align: center;
-    color:white
+    color:white;
+    background-color: rgba(225,225,225,.7);
+    margin: 10px 30px!important;
+    color: black !important;
+    border-radius:10px;
+    font-size: 18px!important;
+    width:350px!important;
     }
     .SignUp{
     display: block;
     text-align: center;
     background-color: blue;
-    margin: 10px 40px;
-    color: white;
+    margin: 0px 30px!important;
+    color: white !important;
+    font-size: 18px!important;
     border-radius:10px;
-    width: 20px;
+    width:350px!important;
     }
     .nav-menu.active{
         width: 410px;
