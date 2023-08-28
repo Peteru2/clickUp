@@ -22,15 +22,36 @@ const MenuItem =
                 title : "Pricing",
                 url: "/",
                 cName : "nav-links",
-                icon: "fa fa-chevron-down",
+                icon: "",
             },
              {
                 title : "Enterprice",
                 url: "/",
                 cName : "nav-links",
-                icon: "fa fa-chevron-down",
+                icon: "",
             },
-           
+            {
+                title : "Contact Sales",
+                url: "/",
+                cName : "nav-links",
+                NameOfClass : "Contact",
+                icon: "",
+            },
+            {
+                title : "Sign Up",
+                url: "/",
+                cName : "nav-links",
+                NameOfClass : "SignUp",
+
+                icon: "",
+            },
+            {
+                title : "Login",
+                url: "/",
+                cName : "nav-links",
+                NameOfClass:"Login",
+                icon: "",
+            },
         ]
         
  

@@ -10,7 +10,7 @@ import Load from './LoadLogin';
 import Board from './Board';
 
 import CalendarPage from './Calendar';
-// import TandC from './TandC';
+import TandC from './TandC';
 function App() {
   return (
    <>
@@ -23,7 +23,7 @@ function App() {
       <Route path ="/Calendar" element = {<CalendarPage />} />
       
       
-      {/* <Route path ="/" element = {<TandC />} /> */}
+      <Route path ="/terms" element = {<TandC />} />
 
       </Routes > 
     

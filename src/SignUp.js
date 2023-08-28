@@ -62,7 +62,7 @@ const SignUp = () => {
      
     </div>
     <div className="justify-center items-center flex ">
-    <p className="text-center   py-2 text-gray-500 logTerms bg-gray-50 rounded-br-xl rounded-bl-xl ">By clicking the button above, you aggree to our <u className="">Terms of Service</u> and <u>Privacy Policy</u></p>
+    <p className="text-center   py-2 text-gray-500 logTerms bg-gray-50 rounded-br-xl rounded-bl-xl ">By clicking the button above, you aggree to our<Link to={"../terms"}> <u className="">Terms of Service</u></Link> and <u>Privacy Policy</u></p>
     </div>
     
    

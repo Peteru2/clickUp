@@ -2,7 +2,7 @@
 .nav{
     background-color: white;
     margin: 0px;
-    padding: 20px 0px;
+    padding: 30px 60px;
     /* margin-bottom: 200px; */
     /* height: 56px; */
     z-index: 9999;
@@ -10,7 +10,7 @@
     position: fixed;
     width: 100%;
     top: 0;
-    border-bottom: 1px solid  black;
+    border-bottom: thin solid  gray;
     display: flex;
 }
 
@@ -21,22 +21,29 @@
 .nav-logo{
     color:black;
     /* padding: 8px 0px; */
-    font-size: 28px;
+    font-size: 32px;
+    z-index:999;
+    font-weight: bolder;
     /* position: relative; */
 }
 
 .nav-menu{
     display :grid;
-    grid-template-columns: repeat(5, auto);
-    grid-gap: 60px;
-    padding: 8px 0px;
-    margin-left:10px;
+    grid-template-columns: repeat(8, auto);
+    grid-gap: 50px;
+    padding: 14px 0px;
+    margin-left:25px;
 }
-
+.navImg{
+    width: 30px;
+    /* height: 10px; */
+}
 .nav-list{
     /* padding: 15px 1%; */
     margin: 0px;
+
 }
+
 
 .menu-icon{
     display: none;
@@ -46,17 +53,10 @@ li{
 }
   .nav-links{
     color:black;
-    font-size: 18px;
+    font-weight: bold;
     text-decoration: none;
-    padding: px ;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     transition: 0.2s ease-in-out;
-}
-
-.nav-links:hover{
-    border-bottom: 2px solid white;
-    color: white;
-    
 }
 
 .nav-side{
@@ -91,63 +91,104 @@ display: flex;
     position: absolute;
     rotate: -310deg;
 }
+.SignUp{
+    display: none;
+   
 
-@media only screen  and (max-width: 1000px){
+}
+.Login{
+    display: none;
+    
+
+}
+.Contact{
+    display: none;
+
+}
+
+.terms{
+    margin-left: 400px;
+}
+@media only screen  and (max-width: 1400px){
     .nav{
         z-index: 99;
-        justify-content:flex-start;
+        /* justify-content:flex-start; */
         margin: 0;
         /* padding-top: 30px */
         /* position: fixed; */
+        padding: 15px 30px;
+        
     }
-
+        .terms{
+            margin-left: 0px;
+        }
+    .termsList{
+        display: none;
+    }
     .nav-menu {
-        background-color: rgb(22, 22, 37);
-        width: 100%;
+        background-color: white;
+        color: black;
+        float: left;
+        height: 0px;
+        width: 0px;
         height: auto;
         position: absolute;
         top: 0;
-        left: -100%;
+        /* left:100px; */
         display: flex;
         opacity: 0;
         align-items: stretch;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         padding: 80px 0 30px 0;
         margin: 0;
         z-index: 99;
         transition: 0.3s ease-in-out;
+        margin-left: 0px
         
+    }
 
-
-
-    
+    .Contact{
+            display: block
+    }
+    .Login{
+    text-align: center;
+    color:white
+    }
+    .SignUp{
+    display: block;
+    text-align: center;
+    background-color: blue;
+    margin: 10px 40px;
+    color: white;
+    border-radius:10px;
+    width: 20px;
     }
     .nav-menu.active{
-        left: 0;
+        width: 410px;
+        right: 0px;
         opacity: 1;
         z-index: -1;
 
     }
+    .sideContent .contact{
+            display: none;
+    }
     .nav-links {
-        color: white;
+        color: black;
         /* background-color: red; */
         display: block;
         width: 100%;
         padding:  20px;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
+        align-items: left;
+        font-size: 20px;
+        /* text-align: center; */
+        /* justify-content: center; */
         margin: 0px;
         
     
     }
-    .nav-links:hover{
-     color: #fff;
-        background-color:rgb(22, 22, 37);
-    border-bottom: none;
 
-    }
     .nav-list{
         padding: 0px;
     }
@@ -165,11 +206,12 @@ display: flex;
     }
     .menu-icon{
         padding-top: 10px;
-        font-size: large;
-        margin-left: 27%;
+        font-size: 23px;
         display: block;
         cursor: pointer;
-        color: white
+        color: black;
+        cursor: pointer;
+        z-index: 9999
     }
     
     .nav-logo{
@@ -179,10 +221,13 @@ display: flex;
     .heart{bottom:5px}
      
 }
-@media only screen  and (max-width: 520px){
+@media only screen  and (max-width: 700px){
     .nav-logo{
-        margin-right: 60%;
+        font-size: 25px
     
+    }
+    .sideContent .log{
+            display: none;
     }
     .menu-icon{
         /* padding-top: 10px; */
