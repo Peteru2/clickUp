@@ -35,7 +35,7 @@ const TandC = () => {
 
                             <p className="text-gray-600 mb-4 text-xl font-bold">Your User Account and Content</p>
 
-                            <ol  className="px-10" style={{ listStyleType: "decimal" }}>
+                            <ol  className="md:px-10 px-4" style={{ listStyleType: "decimal" }}>
                                 <li className="text-gray-500 mb-4 text-lg ">You must provide accurate information when you create your Clickup account.</li>
                                 <li className="text-gray-500 mb-4 text-lg ">You are responsible for safeguarding the password and for all activities that occur under your account. You should notify us immediately if you become aware of any breach of security or unauthorized use of your account.</li>
                                 <li className="text-gray-500 mb-4 text-lg ">You may never use another user’s account without permission.</li>
@@ -57,7 +57,7 @@ const TandC = () => {
                     </div>
                 </div>
                 <footer className="bg-gray-200 w-full  px-20 py-10">
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid md:grid-cols-5 grid-cols-2 gap-4">
                         <ul className="text-sm">
                             <li><b>CLICKUP</b></li>
                             <li className="my-4 text-gray-800 hover:text-blue-500">Download</li>
