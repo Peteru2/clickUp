@@ -12,8 +12,14 @@
     top: 0;
     border-bottom: thin solid  gray;
     display: flex;
+    animation: scale-down;
+    /* animation-timeline: scroll;
+    a */
 }
-
+.nav-active {
+    background: transparent;
+    /* box-shadow: 5px -1px 12px -5px grey; */
+}
 .bg{
     background-color: rgb(13, 13, 51);
 }

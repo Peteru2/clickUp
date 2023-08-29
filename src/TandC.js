@@ -1,5 +1,36 @@
 import Navbar from "./Components/Navbar";
+import { useEffect,useState } from "react";
+
 const TandC = () => {
+
+    
+        const [fixed, setFixed] = useState(true);
+        console.log(fixed);
+    
+        useEffect(() => {
+            const handleScroll = () => {
+                const footer = document.querySelector('footer');
+                const termsList = document.querySelector('.termsList');
+    
+                if (footer && termsList) {
+                    const footerTop = footer.offsetTop;
+                    const windowHeight = window.innerHeight;
+                    const scrollY = window.scrollY;
+    
+                    if (scrollY + windowHeight >= footerTop) {
+                        setFixed(false);
+                    } else {
+                        setFixed(true);
+                    }
+                }
+            };
+    
+            window.addEventListener('scroll', handleScroll);
+    
+            return () => {
+                window.removeEventListener('scroll', handleScroll);
+            };
+        }, []);
     return ( 
         <>
             <Navbar />
