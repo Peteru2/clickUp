@@ -16,11 +16,12 @@ const Navbar = () => {
 
    return (
    
-        <nav className="nav shadow-lg px-10">
+        <nav className="nav shadow-lg ">
+            <Link to={"../Landing"}>
             <h2 className="nav-logo flex" >
             <img src={clickPng} className="navImg" alt="NavImg"/> <b >Click Up</b> 
             </h2>
-
+            </Link>
            
 
             <div className = {name ? "nav-menu shadow-lg  active":"nav-menu "}>

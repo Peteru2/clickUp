@@ -6,13 +6,14 @@ const Login = () =>{
     return(
         <section className="bg-gray-100 logBody">
          <nav className="flow-root flex group mb-16   md:mb-10  w-full columns-2  px-7 py-6 my-1">
+          
+         <Link to={"../Landing"}>
        
        <div className="float-left flex">
-
         <img src={img} className=" w-8 ml-0" alt="Home" />
         <h2 className="font-bold ml-1 text-2xl md:text-3xl ">Click Up  </h2>
-        
        </div>
+       </Link>
       
        <ul className="float-right flex">
          <div  className="flex">          

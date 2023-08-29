@@ -69,19 +69,7 @@
     display :flex;
     font-size: 20px;
 }
-span{
-    margin-right: 4px;
-    background-color: rgb(57, 87, 219);
-    color:white;
-    border-radius: 4px;
-    padding: 2px 10px 2px;
-    flex-direction: row;
-}
-.span{
-flex-direction: row;
-display: flex;
-}
- .fa-chevron-down{   
+.fa-chevron-down{   
     font-size: 10px;
    padding-left: 4px;
    margin-top: 4px;
@@ -105,11 +93,20 @@ display: flex;
 .terms{
     margin-left: 400px;
 }
+.Pricing{
+        padding: 1px!important;
+        border-radius: 3px;
+}
+.nav-list>.Pricing:hover{
+    border-bottom: none!important;
+    background-color:rgba(225,225,225, .9)!important
+    
+}
 @media only screen  and (max-width: 1400px){
     .nav{
         z-index: 99;
         margin: 0;
-        padding: 0px 30px;
+        padding: 0px 20px;
         
     }
         .terms{

@@ -11,6 +11,7 @@ import Board from './Board';
 
 import CalendarPage from './Calendar';
 import TandC from './TandC';
+import Landing from './LandingPage';
 function App() {
   return (
    <>
@@ -24,6 +25,8 @@ function App() {
       
       
       <Route path ="/terms" element = {<TandC />} />
+      <Route path ="/Landing" element = {<Landing />} />
+
 
       </Routes > 
     

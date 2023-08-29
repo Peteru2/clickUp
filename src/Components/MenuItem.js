@@ -22,12 +22,14 @@ const MenuItem =
                 title : "Pricing",
                 url: "/",
                 cName : "nav-links",
+                NameOfClass : "Pricing",
                 icon: "",
             },
              {
                 title : "Enterprice",
                 url: "/",
                 cName : "nav-links",
+                NameOfClass : "Enterprice",
                 icon: "",
             },
             {
