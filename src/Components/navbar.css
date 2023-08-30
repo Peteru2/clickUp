@@ -1,6 +1,6 @@
 
 .nav{
-    background-color: white;
+    background-color: transparent;
     margin: 0px;
     padding: 0px 60px;
     /* margin-bottom: 200px; */
@@ -10,14 +10,13 @@
     position: fixed;
     width: 100%;
     top: 0;
-    border-bottom: thin solid  gray;
     display: flex;
     animation: scale-down;
     /* animation-timeline: scroll;
     a */
 }
 .nav-active {
-    background: transparent;
+    background: white;
 }
 .bg{
     background-color: rgb(13, 13, 51);
@@ -127,6 +126,7 @@
 } */
         .terms{
             margin-left: 0px;
+            width: 135%
         }
     .termsList{
         display: none;
@@ -254,4 +254,9 @@
         font-size: large;
         margin-left: 1%;
     }
+
+.terms{
+    margin-left: 0px;
+    width: 100%
+}
 }

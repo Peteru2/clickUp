@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import MenuItem from "./MenuItem";
-// import { Component } from "react";
 import "./navbar.css";
 import { useState } from "react";
 import clickPng from "../clickIcon.png"
@@ -22,10 +21,9 @@ const Navbar = () => {
                 navbar.classList.remove('nav-active');
             }
         };
-        
    return (
    
-        <nav className="nav shadow-lg ">
+        <nav className="nav">
             <Link to={"../Landing"}>
             <h2 className="nav-logo flex" >
             <img src={clickPng} className="navImg" alt="NavImg"/> <b >Click Up</b> 

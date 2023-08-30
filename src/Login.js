@@ -62,7 +62,7 @@ const Login = () =>{
     <p className="mt-8 text-white">Don't have an account? <b className="pb-1 fadeBorder"><Link>Sign up</Link></b></p>
 
    
-    <p className="mt-2 md:mt-20 recaptcha hidden md:block md:p-0 text-white logfooterP">This site is protected by reCAPTCHA and the Google <b className="pb-1 fadeBorder"><Link> Privacy Policy</Link></b> and <b className="pb-1 fadeBorder"><Link>Terms of Service apply</Link></b>.</p>
+    <p className="mt-2 md:mt-20 recaptcha hidden md:block md:p-0 text-white logfooterP">This site is protected by reCAPTCHA and the Google <b className="pb-1 fadeBorder"><Link> Privacy Policy</Link></b> and <b className="pb-1 fadeBorder"><Link to={"./terms"}>Terms of Service apply</Link></b>.</p>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" style={{ position: "absolute", top: 392, left: 0, width: "100%", height: "55%" }}>
   <defs>

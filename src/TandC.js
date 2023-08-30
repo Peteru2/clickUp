@@ -1,37 +1,9 @@
 import Navbar from "./Components/Navbar";
-import { useEffect,useState } from "react";
 
 const TandC = () => {
 
     
-        const [fixed, setFixed] = useState(true);
-        console.log(fixed);
     
-        useEffect(() => {
-            const handleScroll = () => {
-                const footer = document.querySelector('footer');
-                const termsList = document.querySelector('.termsList');
-    
-                if (footer && termsList) {
-                    const footerTop = footer.offsetTop;
-                    // console.log(footerTop);
-                    const windowHeight = window.innerHeight;
-                    const scrollY = window.scrollY;
-    
-                    if (scrollY + windowHeight >= footerTop) {
-                        setFixed(false);
-                    } else {
-                        setFixed(true);
-                    }
-                }
-            };
-    
-            window.addEventListener('scroll', handleScroll);
-    
-            return () => {
-                window.removeEventListener('scroll', handleScroll);
-            };
-        }, []);
     return ( 
         <>
             <Navbar />
@@ -52,7 +24,7 @@ const TandC = () => {
                                         
                                 </div>
                         </div>
-                        <aside className="col-span-6 terms mt-16">
+                        <aside className=" col-span-8 md:col-span-6 terms mt-16">
                             <p className="text-center justidy-center text-2xl font-bold text-gray-600 mb-4">Terms of Use</p>
 
                             <p className="text-gray-500 mb-4 text-lg font-bold">These Terms of Use are effective as of December 22, 2019.</p>
