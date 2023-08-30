@@ -14,6 +14,7 @@ const TandC = () => {
     
                 if (footer && termsList) {
                     const footerTop = footer.offsetTop;
+                    // console.log(footerTop);
                     const windowHeight = window.innerHeight;
                     const scrollY = window.scrollY;
     
@@ -37,7 +38,7 @@ const TandC = () => {
             <section className="mt-20 w-full">
                 <div className="md:mx-20 mx-8 text-justify">
                     <div className="grid grid-cols-8 ">
-                        <div className="col-span-2 bg-white termsList mt-9 shadow-lg p-8 fixed">
+                        <div className="col-span-2 bg-white termsList mt-9 shadow-lg p-8 ">
                                 <p className="text-xl text-gray-500 font-bold">Policies</p>
                                 <div className="px-2">
                                         <p className="border-b-2 py-2 my-2 border-dashed text-gray-400  text-lg border-blue-500 px-2">Privacy Policy</p>
@@ -51,7 +52,7 @@ const TandC = () => {
                                         
                                 </div>
                         </div>
-                        <aside className="col-span-8 terms mt-16">
+                        <aside className="col-span-6 terms mt-16">
                             <p className="text-center justidy-center text-2xl font-bold text-gray-600 mb-4">Terms of Use</p>
 
                             <p className="text-gray-500 mb-4 text-lg font-bold">These Terms of Use are effective as of December 22, 2019.</p>
