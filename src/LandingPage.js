@@ -6,6 +6,7 @@ import G2 from "./g2crowd.png"
 import getapp from "./getapp.svg"
 import capterra from "./capterra.png"
 import home from "./homeB.avif"
+import TeamsImg from "./TeamsImg";
 
 const Landing = () => {
     return ( 
@@ -47,7 +48,7 @@ const Landing = () => {
                                 </div>
                                 <div className="mt-10 w-full justify-center text-center md:text-left">
                                     <p ><i className="fa fa-star text-amber-500 text-sm"></i> <i className="fa fa-star text-amber-500 text-sm"></i> <i className="fa fa-star text-amber-500 text-sm"></i> <i className="fa fa-star text-amber-500 text-sm"></i> <i className="fa fa-star text-amber-500 text-sm"></i> <span className="text-xs"> Based on 10,000+ reviews on</span></p>
-                                    <div className="flex mb-96 text-center justify-center md:justify-start">
+                                    <div className="flex  text-center justify-center md:justify-start">
                                         <img src={G2} alt="g2" className="w-16 mr-4" />
                                         <img src={capterra} alt="capterra" className="w-16 mr-4"/>
                                         <img src={getapp} alt="getapp" className="w-16" />
@@ -61,8 +62,8 @@ const Landing = () => {
                         </video>
                             </div>
                     </div>
-
-
+                    <TeamsImg />
+                       
                     <SVG />
                 </section>
         </>
