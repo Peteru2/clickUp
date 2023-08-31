@@ -14,13 +14,23 @@ const Navbar = () => {
     }
 
     const navbar = document.querySelector('.nav');
+    const navSign = document.querySelector('.sign')
     window.onscroll = () => {
             if (window.scrollY > 300) {
                 navbar.classList.add('nav-active');
                 navbar.classList.add('shadow-xl')
+                navSign.classList.add('bg-blue-500')
+                navSign.classList.add('text-white');
+                navSign.classList.remove('text-blue-500')
+
+                
+
             } else {
                 navbar.classList.remove('nav-active');
                 navbar.classList.remove('shadow-xl');
+                navSign.classList.remove('bg-blue-500');
+                navSign.classList.add('text-blue-500')
+
             }
         };
    return (
@@ -49,7 +59,7 @@ const Navbar = () => {
         </div>
               <div className="ml-auto flex sideContent">
                 <button className="mr-6 font-bold contact my-3">Contact Sales</button>
-                <button className=" rounded-md px-6 py-2 text-white bg-blue-500 mr-4 shadow-lg sign my-8">Sign Up</button>
+                <button className=" rounded-lg px-6 py-2 border-2 border-blue-500 mr-4 sign shadow-lg sign my-8">Sign Up</button>
                 <button className="rounded-md px-6 text-black bg-white shadow-lg log my-8">Login</button>
 
                
