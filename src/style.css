@@ -149,6 +149,16 @@
       border-radius: 50%;
       animation: imageResize 1s linear infinite;
     }
+    .landingSvg{
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 40%;   
+      height: 90%;  
+      z-index: -1;
+       
+    }
+
     .circle-font{
       font-size: 19px;
     }
@@ -275,6 +285,9 @@
     .loginForm{
     
       width: 330px;
+      }
+      .landingSvg{
+        display:none
       }
 
   }

@@ -1,3 +1,5 @@
+import "./style.css"
+
 const SVG = () => {
     return ( 
         <>
@@ -5,14 +7,7 @@ const SVG = () => {
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 100 100"
   preserveAspectRatio="none"
-  style={{
-    position: "fixed",
-    top: 0,
-    right: 0,
-    width: "40%",   // Adjust the width as needed
-    height: "90%",  // Adjust the height as needed
-    zIndex: -1,
-  }}
+  className="landingSvg"
 >
   <defs>
     <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
