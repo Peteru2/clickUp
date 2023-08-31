@@ -42,7 +42,7 @@ const Landing = () => {
                                    <p className="bg-purple-600 p-4 shadow-xl font-bold  w-full md:w-32 text-center rounded-md text-white cursor-pointer hover:shadow-lg">Get Started</p>
                                    <p className="text-gray-300 text-sm font-bold mt-2 md:block hidden">FREE FOREVER<br /> NO CREDIT CARD</p>
                                 </div>
-                                <div className="my-8">
+                                <div className="my-8 md:hidden block">
                                     <img src={home} alt="home"/>
                                 </div>
                                 <div className="mt-10 w-full justify-center text-center md:text-left">
