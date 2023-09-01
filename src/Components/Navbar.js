@@ -12,7 +12,7 @@ const Navbar = () => {
   const  handleClick = () => {
         setState(current => !current )
     }
-    // document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', () => {
       
     const navbar = document.querySelector('.nav');
     const navSign = document.querySelector('.sign')
@@ -35,7 +35,7 @@ const Navbar = () => {
             }
             
         };
-        // });
+        });
    return (
    
         <nav className="nav">
