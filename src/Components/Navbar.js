@@ -12,11 +12,12 @@ const Navbar = () => {
   const  handleClick = () => {
         setState(current => !current )
     }
-
+    // document.addEventListener('DOMContentLoaded', () => {
+      
     const navbar = document.querySelector('.nav');
     const navSign = document.querySelector('.sign')
     window.onscroll = () => {
-            if (window.scrollY > 300) {
+            if (window.scrollY > 200) {
                 navbar.classList.add('nav-active');
                 navbar.classList.add('shadow-xl')
                 navSign.classList.add('bg-blue-500')
@@ -32,13 +33,15 @@ const Navbar = () => {
                 navSign.classList.add('text-blue-500')
 
             }
+            
         };
+        // });
    return (
    
         <nav className="nav">
             <Link to={"../Landing"}>
             <h2 className="nav-logo flex" >
-            <img src={clickPng} className="navImg" alt="NavImg"/> <b >Click Up</b> 
+            <img src={clickPng} className="navImg" alt="NavImg"/> <b >ClickUp</b> 
             </h2>
             </Link>
            
