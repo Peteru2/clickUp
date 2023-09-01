@@ -16,7 +16,8 @@ const Navbar = () => {
       
     const navbar = document.querySelector('.nav');
     const navSign = document.querySelector('.sign')
-    if (navbar && navSign) { // Check if both elements exist
+    if (navbar && navSign) { 
+        console.log(navbar)// Check if both elements exist
         window.onscroll = () => {
           if (window.scrollY > 200) {
             navbar.classList.add('nav-active');
