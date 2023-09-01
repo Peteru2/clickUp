@@ -27,6 +27,8 @@ const Navbar = () => {
         navbarRef.current.classList.remove("shadow-xl");
         navSignRef.current.classList.remove("bg-blue-500");
         navSignRef.current.classList.add("text-blue-500");
+        navSignRef.current.classList.remove("text-white");
+
       }
     };
 
