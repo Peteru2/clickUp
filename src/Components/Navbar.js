@@ -12,30 +12,29 @@ const Navbar = () => {
   const  handleClick = () => {
         setState(current => !current )
     }
-    document.addEventListener('DOMContentLoaded', () => {
+    // document.addEventListener('DOMContentLoaded', () => {
       
     const navbar = document.querySelector('.nav');
     const navSign = document.querySelector('.sign')
-    window.onscroll = () => {
-            if (window.scrollY > 200) {
-                navbar.classList.add('nav-active');
-                navbar.classList.add('shadow-xl')
-                navSign.classList.add('bg-blue-500')
-                navSign.classList.add('text-white');
-                navSign.classList.remove('text-blue-500')
-
-                
-
-            } else {
-                navbar.classList.remove('nav-active');
-                navbar.classList.remove('shadow-xl');
-                navSign.classList.remove('bg-blue-500');
-                navSign.classList.add('text-blue-500')
-
-            }
-            
+    if (navbar && navSign) { // Check if both elements exist
+        window.onscroll = () => {
+          if (window.scrollY > 200) {
+            navbar.classList.add('nav-active');
+            navbar.classList.add('shadow-xl');
+            navSign.classList.add('bg-blue-500');
+            navSign.classList.add('text-white');
+            navSign.classList.remove('text-blue-500');
+          } else {
+            navbar.classList.remove('nav-active');
+            navbar.classList.remove('shadow-xl');
+            navSign.classList.remove('bg-blue-500');
+            navSign.classList.add('text-blue-500');
+          }
         };
-        });
+      } else {
+        console.error("Navbar or navSign element not found");
+      }
+        // });
    return (
    
         <nav className="nav">
