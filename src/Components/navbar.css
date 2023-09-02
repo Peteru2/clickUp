@@ -259,4 +259,10 @@
     margin-left: 0px;
     width: 100%
 }
+.nav-logo{
+    padding:16px 0px
+}
+.menu-icon {
+    padding-top: 24px;
+}
 }

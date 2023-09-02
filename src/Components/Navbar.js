@@ -64,7 +64,7 @@ const Navbar = () => {
       <div className="ml-auto flex sideContent">
         <button className="mr-6 font-bold contact my-3">Contact Sales</button>
         <button
-          className="rounded-lg px-6 py-2 border-2 border-blue-500 mr-4 sign shadow-lg sign my-8"
+          className="rounded-lg px-6 py-1 md:py-2 border-2 border-blue-500 mr-4 sign shadow-lg sign my-3 md:my-8"
           ref={navSignRef}
         >
           Sign Up
