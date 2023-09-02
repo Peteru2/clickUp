@@ -77,10 +77,10 @@ const TeamsImg = () => {
         </section>
         <div className="md:bg-rose-50 bg-transparent mt-10 rounded-xl p-0 md:p-12">
             <div className="flex pb-3">
-                <h3 className="md:mx-4 mr-4 font-bold pb-1 cursor-pointer hover:border-b-4 hover:border-rose-300" onClick={handleTask}>Project & Tasks</h3>
-                <h3 className="mx-4 font-bold   pb-1 cursor-pointer hover:border-b-4 hover:border-rose-300" onClick={handleChat}>Chat</h3>
-                <h3 className="mx-4 font-bold pb-1 cursor-pointer hover:border-b-4 hover:border-rose-300" onClick={handleGoal}>Goals</h3>
-                <h3 className="mx-4 font-bold pb-1 cursor-pointer hover:border-b-4 hover:border-rose-300" onClick={handleView}>Views</h3>
+                <h3 className={projTask ? "border-b-4 md:mx-4 mr-4 font-bold pb-1 cursor-pointer hover:border-b-4 border-rose-300":" md:mx-4 mr-4 font-bold pb-1 cursor-pointer hover:border-b-4 border-rose-300"} onClick={handleTask}>Project & Tasks</h3>
+                <h3 className={chat ? "border-b-4 mx-4 font-bold   pb-1 cursor-pointer hover:border-b-4 border-rose-300" :" mx-4 font-bold   pb-1 cursor-pointer hover:border-b-4 border-rose-300"} onClick={handleChat}>Chat</h3>
+                <h3 className={goal ? "border-b-4 mx-4 font-bold pb-1 cursor-pointer hover:border-b-4 border-rose-300":"mx-4 font-bold pb-1 cursor-pointer hover:border-b-4 border-rose-300"} onClick={handleGoal}>Goals</h3>
+                <h3 className={view ? "border-b-4 mx-4 font-bold pb-1 cursor-pointer hover:border-b-4 border-rose-300":"mx-4 font-bold pb-1 cursor-pointer hover:border-b-4 border-rose-300"} onClick={handleView}>Views</h3>
             </div>
 
             <div className={projTask ? " block grid md:grid-cols-2 grid-col-1 bg-rose-50  gap-4  rounded-lg md:bg-transparent p-4 md:p-0 my-4" :"hidden"}>

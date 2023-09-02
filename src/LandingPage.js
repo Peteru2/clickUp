@@ -7,6 +7,7 @@ import getapp from "./getapp.svg"
 import capterra from "./capterra.png"
 import home from "./homeB.avif"
 import TeamsImg from "./TeamsImg";
+import Docs from "./Docs";
 
 const Landing = () => {
     return ( 
@@ -63,7 +64,9 @@ const Landing = () => {
                             </div>
                     </div>
                     <TeamsImg />
-                       
+                    <Docs />
+
+
                     <SVG />
                 </section>
         </>
