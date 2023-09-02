@@ -12,7 +12,7 @@ const Landing = () => {
     return ( 
         <>
             <Navbar />
-                <section className="md:mx-14 mx-8  md:mt-32 mt-16 ">
+                <section className="md:mx-14 mx-3  md:mt-32 mt-16 ">
                     <div className="grid md:grid-cols-2 grid-cols-1 gap-20 md:mx-20 mx-0 ">
                             <div className="md:order-1 order-2">
                                 <p className="md:text-7xl text-4xl text-center md:text-left mt-10 font-bold">One app to replace them all.</p>
@@ -36,11 +36,11 @@ const Landing = () => {
                                             <p className="my-2"><i className="fa fa-check-circle text-green-500"></i> <span className="font-bold text-gray-500 text-sm">Collaborate in Docs & Whiteboards</span></p>
                                             <p className="my-2"><i className="fa fa-check-circle text-green-500"></i> <span className="font-bold text-gray-500 text-sm">Save time with no code automation </span></p>
                                 </div>
-                                <div className="mt-6">
-                                    <input type="text" placeholder="Enter your work email" className="p-4 md:w-80 w-full border-blue-300 rounded-lg border-2"/>
+                                <div className="mt-6 md:mx-0 mx-6">
+                                    <input type="text" placeholder="Enter your work email" className="p-4 md:w-80 w-full border-blue-300 rounded-lg  border-2"/>
                                 </div>
                                 <div className="mt-5 gap-4 flex">
-                                   <p className="bg-purple-600 p-4 shadow-xl font-bold  w-full md:w-32 text-center rounded-md text-white cursor-pointer hover:shadow-lg">Get Started</p>
+                                   <p className="bg-purple-600 p-4 shadow-xl font-bold  w-full md:w-32 text-center rounded-md text-white cursor-pointer md:mx-0 mx-6 hover:shadow-lg">Get Started</p>
                                    <p className="text-gray-300 text-sm font-bold mt-2 md:block hidden">FREE FOREVER<br /> NO CREDIT CARD</p>
                                 </div>
                                 <div className="my-8 md:hidden block">
