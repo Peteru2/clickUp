@@ -30,13 +30,13 @@ const Docs = () => {
 
     return (
         <>
-            <section className="md:bg-gray-100 bg-transparent my-6  md:py-8 py-0 rounded-lg my-8">
+            <section className="md:bg-gray-100 bg-transparent my-6  md:pt-8 py-0 big-round my-8">
                 <div className="flex md:text-center   text-left md:justify-center my-6 font-bold">
                         <p className={Docs ? "mr-8 pb-2 border-b-4  border-blue-400 hover:border-b-4 text-gray-700 cursor-pointer":" cursor-pointer mr-8 pb-2 text-gray-700 border-blue-400 hover:border-b-4"} onClick={handleDocs}>Docs</p>
                         <p className= {White ? "mx-8 pb-2 border-b-4  border-blue-400 hover:border-b-4 text-gray-700 cursor-pointer" :"cursor-pointer text-gray-700 mx-8 pb-2  border-blue-400 hover:border-b-4"} onClick={handleWhite}>Whiteboards</p>
                         <p className= {Dash ? "mx-8 pb-2 border-b-4  border-blue-400 hover:border-b-4 text-gray-700 cursor-pointer" :"cursor-pointer text-gray-700 mx-8 pb-2  border-blue-400 hover:border-b-4"} onClick={handleDash}>Dashboards</p>
                 </div>
-                <div className={Docs ? "p-2 bg-gray-100 md:bg-transparent rounded-lg text-gray-800": "hidden"}>
+                <div className={Docs ? "p-2 bg-gray-100 md:bg-transparent DocsRound text-gray-800": "hidden"}>
                     <p className="DocText font-bold text-center">The world's most powerful (and fun) Docs.</p>
                     <div className="DocVid mt-20 rounded-lg">
                     <video autoPlay loop muted playsInline className="m d:rounded-xl md:block hidden">
@@ -46,7 +46,7 @@ const Docs = () => {
                     <img src={DocsImg} alt="ProjectImg" className="md:hidden block mb-4 rounded-lg"/>
                 </div>
                 </div>
-                <div className={White ? "p-2 bg-gray-100 md:bg-transparent rounded-lg":"hidden"}>
+                <div className={White ? "p-2 bg-gray-100 md:bg-transparent DocsRound":"hidden"}>
                     <p className="DocText font-bold text-center">Bring your ideas to life with Whiteboards.</p>
                     <div className="DocVid mt-20 rounded-lg">
                     <video autoPlay loop muted playsInline className="md:rounded-xl md:block hidden">
@@ -57,7 +57,7 @@ const Docs = () => {
                 </div>
                 </div>
 
-                <div className={Dash ? "p-2 bg-gray-100 md:bg-transparent rounded-lg":"hidden"}>
+                <div className={Dash ? "p-2 bg-gray-100 md:bg-transparent DocsRound":"hidden"}>
                     <p className="DocText font-bold text-center">See how you're doing in real-time with Dashboards.</p>
                     <div className="DocVid mt-20 rounded-lg">
                     <video autoPlay loop muted playsInline className="md:rounded-xl md:block hidden">
@@ -66,6 +66,9 @@ const Docs = () => {
                     </video>
                     <img src={DashImg} alt="ProjectImg" className="md:hidden block mb-4 rounded-lg"/>
                 </div>
+                </div>
+                <div className=" flex flex-wrap justify-center bg-gray-200 Gstated md:mt-20 mt-0 py-6">
+                    <p className="p-2 hover:bg-white w-32 rounded-md text-center font-bold">Get Started</p>
                 </div>
             </section>
         </>

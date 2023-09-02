@@ -8,7 +8,8 @@ import capterra from "./capterra.png"
 import home from "./homeB.avif"
 import TeamsImg from "./TeamsImg";
 import Docs from "./Docs";
-
+import SideComment from "./Sidecomment";
+import Platform from "./platform";
 const Landing = () => {
     return ( 
         <>
@@ -65,9 +66,11 @@ const Landing = () => {
                     </div>
                     <TeamsImg />
                     <Docs />
+                    <Platform />
 
 
                     <SVG />
+                    <SideComment />
                 </section>
         </>
      );

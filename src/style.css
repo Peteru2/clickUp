@@ -287,6 +287,17 @@
 .current-day {
   border-color: blue; /* Change this to the desired border color */
 }
+.big-round{
+  border-radius: 60px;
+}
+.SideCommentIcon{
+  position:fixed;
+  right:18px;
+  bottom:14px
+}
+.Gstated{
+    border-radius: 0px 0px 60px 60px
+}
 @media only screen  and (max-width: 1400px){
 
   .DocText{
@@ -297,6 +308,21 @@
     margin: 0px 150px
   }
 }
+@media only screen  and (max-width: 768px){
+  .Gstated{
+    border-radius: 0px 0px 20px 20px
+}
+.DocsRound{
+  border-radius: 20px 20px 0px 0px
+}
+.TaskRound{
+  border-radius: 20px 20px 20px 20px
+}
+.big-round{
+  border-radius: 20px;
+}
+}
+
 @media only screen  and (max-width: 800px){
 
   .DocText{
@@ -306,6 +332,7 @@
   .DocVid{
     margin: 0px 15px
   }
+ 
 }
    @media only screen  and (max-width: 650px){
      .SsoAsideBox, .LogAsideBox{

@@ -75,7 +75,7 @@ const TeamsImg = () => {
         </div>
         
         </section>
-        <div className="md:bg-rose-50 bg-transparent mt-10 rounded-xl p-0 md:p-12">
+        <div className="md:bg-rose-50 bg-transparent mt-10 big-round p-0 md:p-12">
             <div className="flex pb-3">
                 <h3 className={projTask ? "border-b-4 md:mx-4 mr-4 font-bold pb-1 cursor-pointer hover:border-b-4 border-rose-300":" md:mx-4 mr-4 font-bold pb-1 cursor-pointer hover:border-b-4 border-rose-300"} onClick={handleTask}>Project & Tasks</h3>
                 <h3 className={chat ? "border-b-4 mx-4 font-bold   pb-1 cursor-pointer hover:border-b-4 border-rose-300" :" mx-4 font-bold   pb-1 cursor-pointer hover:border-b-4 border-rose-300"} onClick={handleChat}>Chat</h3>
@@ -83,7 +83,7 @@ const TeamsImg = () => {
                 <h3 className={view ? "border-b-4 mx-4 font-bold pb-1 cursor-pointer hover:border-b-4 border-rose-300":"mx-4 font-bold pb-1 cursor-pointer hover:border-b-4 border-rose-300"} onClick={handleView}>Views</h3>
             </div>
 
-            <div className={projTask ? " block grid md:grid-cols-2 grid-col-1 bg-rose-50  gap-4  rounded-lg md:bg-transparent p-4 md:p-0 my-4" :"hidden"}>
+            <div className={projTask ? " block grid md:grid-cols-2 grid-col-1 bg-rose-50  gap-4 TaskRound md:bg-transparent p-4 md:p-0 my-4" :"hidden"}>
                 <div className="md:order-1 order-2 ">
                     <p className="text-3xl font-bold">Simplify work and get more done.</p>
                     <p className=" my-4">Plan, track, and manage any type of work with project management that flexes to your team's needs.</p>
@@ -99,7 +99,7 @@ const TeamsImg = () => {
                 </div>
             </div>
 
-            <div className={chat ?" block grid md:grid-cols-2 grid-col-1 bg-rose-50  gap-4  rounded-lg md:bg-transparent p-4 md:p-0 my-4": "hidden"}>
+            <div className={chat ?" block grid md:grid-cols-2 grid-col-1 bg-rose-50  gap-4  TaskRound md:bg-transparent p-4 md:p-0 my-4": "hidden"}>
                 <div className="md:order-1 order-2 ">
                     <p className="text-3xl font-bold">Bring everyone together in Chat.</p>
                     <p className=" my-4">Work smarter as a team with real-time chat. Tag individuals or groups, assign comments for action items, and link tasks to get more done together.</p>
@@ -115,7 +115,7 @@ const TeamsImg = () => {
                 </div>
             </div>
 
-            <div className={goal ?" block grid md:grid-cols-2 grid-col-1 bg-rose-50  gap-4  rounded-lg md:bg-transparent p-4 md:p-0 my-4": "hidden"}>
+            <div className={goal ?" block grid md:grid-cols-2 grid-col-1 bg-rose-50  gap-4  TaskRound md:bg-transparent p-4 md:p-0 my-4": "hidden"}>
                 <div className="md:order-1 order-2 ">
                     <p className="text-3xl font-bold">Set goals and crush them faster.</p>
                     <p className=" my-4">Stay on track to hit your goals with targets for task completions, numbers, monetary values and more. Track progress in real-time connecting tasks to goals and keep your objectives organized with Goal Folders.</p>
@@ -131,7 +131,7 @@ const TeamsImg = () => {
                 </div>
             </div>
 
-            <div className={view ?" block grid md:grid-cols-2 grid-col-1 bg-rose-50  gap-4  rounded-lg md:bg-transparent p-4 md:p-0 my-4": "hidden"}>
+            <div className={view ?" block grid md:grid-cols-2 grid-col-1 bg-rose-50  gap-4  TaskRound md:bg-transparent p-4 md:p-0 my-4": "hidden"}>
                 <div className="md:order-1 order-2 ">
                     <p className="text-3xl font-bold">See your work, your way.</p>
                     <p className=" my-4">Tackle work from any angle with 20+ real-time views that adapt to your needs. Track tasks on List, update workflows on a Board, drag-and-drop due dates on a Calendar, and so much more.</p>
