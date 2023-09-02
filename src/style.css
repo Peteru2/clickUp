@@ -142,7 +142,13 @@
       border-radius: 50%;
       animation: spin .8s linear infinite, changeColor 4s linear infinite;;
     }
-    
+    .DocText{
+      font-size: 60px;
+      margin: 30px 330px
+    }
+    .DocVid{
+      margin: 0px 250px
+    }
     .loading-image {
       width: 100%;
       height: 100%;
@@ -269,6 +275,11 @@
   padding: 4px;
   white-space: nowrap;
 }
+.theDocsTexts{
+  border-bottom: 4px solid ;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
 
 .day-cell:hover .hover-content {
   display: block;
@@ -276,10 +287,31 @@
 .current-day {
   border-color: blue; /* Change this to the desired border color */
 }
+@media only screen  and (max-width: 1400px){
+
+  .DocText{
+    font-size: 40px;
+    margin: 30px 190px
+  }
+  .DocVid{
+    margin: 0px 150px
+  }
+}
+@media only screen  and (max-width: 800px){
+
+  .DocText{
+    font-size: 30px;
+    margin: 30px 50px
+  }
+  .DocVid{
+    margin: 0px 15px
+  }
+}
    @media only screen  and (max-width: 650px){
      .SsoAsideBox, .LogAsideBox{
         display: none;
       } 
+     
    }
   @media only screen  and (max-width: 540px){
     .loginForm{
