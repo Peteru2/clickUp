@@ -321,6 +321,15 @@
 .big-round{
   border-radius: 20px;
 }
+.order1{
+  
+  order: 2;
+
+}
+.order2{
+ 
+  order: 1;
+}
 }
 
 @media only screen  and (max-width: 800px){
@@ -348,7 +357,15 @@
       .landingSvg{
         display:none
       }
-
+      .order1{
+  
+        order: 1;
+      
+      }
+      .order2{
+       
+        order: 2;
+      }
   }
     
     @media only screen  and (max-width: 480px){

@@ -5,11 +5,11 @@ const Platform = () => {
         <>
             <section className="bg-green-50 DocsRound big-round md:pt-10 pt-0">
                 <div className="grid md:grid-cols-2 gap-4 grid-cols-1 md:mx-10 mx-6">
-                    <div>
+                    <div className="order1">
                         <p className=" hidden md:block py-4 px-2 rounded-lg bg-green-600 w-20 text-center"><i className="fa fa-file text-white text-2xl"></i></p>
 
                         <p className="md:mt-12 mt-5 mb-6 text-xs text-green-500 font-bold">THE PLATFORM</p>
-                        <p className="text-6xl font-bold w-96">Import to the future of work with one click.</p>
+                        <p className="md:text-6xl text-3xl font-bold w-96">Import to the future of work with one click.</p>
                         <p className="my-10">Instantly import your work from other tools automatically. Create a custom import to bring work in from excel or tools that aren't supported.</p>
                         <div className="grid gap-4 grid-cols-2">
                                 <div>
@@ -24,7 +24,7 @@ const Platform = () => {
                                 </div>
                         </div>
                     </div>
-                    <div className=" mb:mt-20 mt-5  md:mb-0 mb-6 rounded-lg">
+                    <div className=" mb:mt-20 mt-5  md:mb-0 mb-6 rounded-lg order2">
                     <video autoPlay loop muted playsInline className="md:rounded-xl md:block hidden">
                             <source src={PlatformVid} type="video/mp4" />
                             Your browser does not support the video tag.
