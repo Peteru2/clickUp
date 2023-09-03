@@ -9,8 +9,9 @@ const Platform = () => {
                         <p className=" hidden md:block py-4 px-2 rounded-lg bg-green-600 w-20 text-center"><i className="fa fa-file text-white text-2xl"></i></p>
 
                         <p className="md:mt-12 mt-5 mb-6 text-xs text-green-500 font-bold">THE PLATFORM</p>
-                        <p className="md:text-6xl text-3xl font-bold w-96">Import to the future of work with one click.</p>
+                        <p className="md:text-6xl text-3xl font-bold md:w-96 w-80 ">Import to the future of work with one click.</p>
                         <p className="my-10">Instantly import your work from other tools automatically. Create a custom import to bring work in from excel or tools that aren't supported.</p>
+                        
                         <div className="grid gap-4 grid-cols-2">
                                 <div>
                                     <p className="font-bold xs"><span className="p-1 mr-2 text-center bg-green-400 text-white text-xs rounded-full">01</span> IMPORT</p>
