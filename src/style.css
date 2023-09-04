@@ -304,8 +304,13 @@
 .platDesktopClicks{
   display: grid;
 }
+.LandingMarg{
+  margin: 110px 100px 0px;
+}
 @media only screen  and (max-width: 1400px){
-
+  .LandingMarg{
+    margin: 110px 0px 0px;
+  }
   .DocText{
     font-size: 40px;
     margin: 30px 190px
@@ -315,6 +320,9 @@
   }
 }
 @media only screen  and (max-width: 768px){
+  .LandingMarg{
+    margin: 110px 20px 0px;
+  }
   .Gstated{
     border-radius: 0px 0px 20px 20px
 }

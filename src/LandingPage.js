@@ -14,7 +14,7 @@ const Landing = () => {
     return ( 
         <>
             <Navbar />
-                <section className="md:mx-14 mx-3  md:mt-32 mt-16 ">
+                <section className="LandingMarg  md:mt-32 mt-16 ">
                     <div className="grid md:grid-cols-2 grid-cols-1 gap-20 md:mx-20 mx-0 ">
                             <div className="md:order-1 order-2">
                                 <p className="md:text-7xl text-4xl text-center md:text-left mt-10 font-bold">One app to replace them all.</p>

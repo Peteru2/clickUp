@@ -70,6 +70,7 @@ const Docs = () => {
                 <div className=" flex flex-wrap justify-center bg-gray-200 Gstated md:mt-20 mt-0 py-6">
                     <p className="p-2 hover:bg-white w-32 rounded-md text-center font-bold">Get Started</p>
                 </div>
+                
             </section>
         </>
     );
