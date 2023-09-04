@@ -87,7 +87,7 @@ const Platform = () => {
                
                 <div className="grid md:grid-cols-2 gap-4 grid-cols-1 md:mx-10 mx-6">
                     <div className="order1">
-                   <p className=" hidden md:block py-4 px-2 rounded-lg bg-green-600 w-20 text-center cursor-pointer"><i className="fa fa-file text-white text-2xl"></i></p>
+                   <p className=" hidden md:block py-4 px-2 rounded-lg bg-green-600 w-20 text-center cursor-pointer"><i className="fa fa-clone text-white text-2xl"></i></p>
                     <p className="md:mt-12 mt-5 mb-6 text-xs text-green-500 font-bold">THE PLATFORM</p>
                         <div className={Import ? "block" : "hidden"}>                        
                     
@@ -158,7 +158,7 @@ const Platform = () => {
                </div>
                 </div>
                 <div className=" flex flex-wrap justify-center bg-green-100 Gstated md:mt-20  py-6">
-                    <p className="p-2 hover:bg-white w-32 rounded-md text-center font-bold">Get Started</p>
+                    <p className="p-2 hover:bg-white w-38 rounded-md text-center font-bold">Get Started <i className="fa fa-long-arrow-right ml-1 text-green-500"></i></p>
                 </div>
             </section>
         </>
