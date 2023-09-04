@@ -39,7 +39,7 @@ const Docs = () => {
                 <div className={Docs ? "p-2 bg-gray-100 md:bg-transparent DocsRound text-gray-800": "hidden"}>
                     <p className="DocText font-bold text-center">The world's most powerful (and fun) Docs.</p>
                     <div className="DocVid mt-20 rounded-lg">
-                    <video autoPlay loop muted playsInline className="m d:rounded-xl md:block hidden">
+                    <video autoPlay loop muted playsInline className="md:rounded-xl md:block hidden">
                             <source src={DocsVid} type="video/mp4" />
                             Your browser does not support the video tag.
                     </video>
