@@ -307,21 +307,100 @@
 .LandingMarg{
   margin: 110px 100px 0px;
 }
+.FloatIcons{
+  position: relative
+}
+.DocU{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:50px;
+  position: absolute;
+  top:40px;
+  left: 80px;
+  padding: 0px 20px;
+  border-radius: 10px;
+ transform: rotate(40deg);
+}
+.u{ 
+  transform: rotate(-40deg)
+}
+.DocPen{
+  font-size:20px;
+  position: absolute;
+  top:120px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  left: 170px;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px
+}
+.DocFile{
+  font-size:20px;
+  position: absolute;
+  top:145px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  left: 20px;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px
+}
+.DocLink{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:30px;
+  position: absolute;
+  top:210px;
+  left: 100px;
+  padding: 15px 15px;
+  border-radius: 10px;
+ 
+ transform: rotate(40deg);
+}
+.falink{
+  transform: rotate(0deg);
+}
+
+.DocComment{
+  font-size:20px;
+  position: absolute;
+  top:40px;
+  padding: 20px 20px;
+  border-radius: 10px;
+  right: 40px;
+  border-radius: 10px
+}
 @media only screen  and (max-width: 1400px){
   .LandingMarg{
     margin: 110px 0px 0px;
   }
   .DocText{
     font-size: 40px;
-    margin: 30px 190px
+    margin: 30px 400px
   }
   .DocVid{
     margin: 0px 150px
   }
 }
+@media only screen  and (max-width: 1200px){
+  .DocText{
+    font-size: 38px;
+    margin: 30px 300px
+  }
+}
+@media only screen  and (max-width: 1000px){
+  .DocText{
+    font-size: 35px;
+    margin: 30px 240px
+  }
+  .DocSideIcon{
+    display: none;
+  }
+}
 @media only screen  and (max-width: 768px){
   .LandingMarg{
-    margin: 110px 20px 0px;
+    margin: 110px 15px 0px;
   }
   .Gstated{
     border-radius: 0px 0px 20px 20px

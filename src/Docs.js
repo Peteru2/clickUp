@@ -30,7 +30,7 @@ const Docs = () => {
 
     return (
         <>
-            <section className="md:bg-gray-100 bg-transparent my-6  md:pt-8 py-0 big-round my-8">
+            <section className="md:bg-gray-100 bg-transparent my-6 FloatIcons md:pt-8 py-0 big-round my-8">
                 <div className="flex md:text-center   text-left md:justify-center my-6 font-bold">
                         <p className={Docs ? "mr-8 pb-2 border-b-4  border-blue-400 hover:border-b-4 text-gray-700 cursor-pointer":" cursor-pointer mr-8 pb-2 text-gray-700 border-blue-400 hover:border-b-4"} onClick={handleDocs}>Docs</p>
                         <p className= {White ? "mx-8 pb-2 border-b-4  border-blue-400 hover:border-b-4 text-gray-700 cursor-pointer" :"cursor-pointer text-gray-700 mx-8 pb-2  border-blue-400 hover:border-b-4"} onClick={handleWhite}>Whiteboards</p>
@@ -70,7 +70,31 @@ const Docs = () => {
                 <div className=" flex flex-wrap justify-center bg-gray-200 Gstated md:mt-20 mt-0 py-6">
                     <p className="p-2 hover:bg-white w-32 rounded-md text-center font-bold">Get Started</p>
                 </div>
-                
+
+                <div className="DocSideIcon">
+                <div className="DocU shadow-lg bg-gray-100">
+                <p className="u">
+                    <u>u</u>
+                </p>
+                </div>
+                <p className="DocPen shadow-lg bg-gray-100">
+                   <i className="fa fa-pen"></i>
+                </p>
+                <p className="DocFile shadow-lg bg-gray-100">
+                   <i className="fa fa-file"></i>
+                </p>
+                <div className="DocLink shadow-lg bg-gray-100">
+                <p className="falink">
+                    <i className="fa fa-link"></i>
+                </p>
+                </div>
+                <div className="DocComment shadow-lg bg-gray-100">
+                <p className="u">
+                    <i className="fa fa-comment"></i>
+                </p>
+                </div>
+
+                </div>
             </section>
         </>
     );
