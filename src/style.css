@@ -411,11 +411,43 @@
   border-radius: 100px;
  
 }
-.FooterBg{
+.Footer{
   background:url("footer.svg");
 }
-.FooterBg li{
+.Footer li{
   color:white
+}
+.FooterGrid{
+  display :grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 40px;
+}
+.FooterButton{
+  background:rgba(225,225,225,.2  );
+  font-weight: 400;
+  border-radius: 7px;
+  
+
+}
+
+.FootDownload{
+  font-size: 10px;
+}
+.FootApp{
+  font-size: 18px
+}
+.FootGplay{
+  font-size: 15px;
+}
+.FooterClickSvg{
+  display: flex
+}
+.FooterIcon{
+  margin-left: auto;
+  margin-top: 5px;
+}
+.FIconSize{
+  font-size: 28px
 }
 @media only screen  and (max-width: 1400px){
   .LandingMarg{
@@ -434,6 +466,13 @@
     font-size: 38px;
     margin: 30px 300px
   }
+   .FooterGrid{
+    grid-template-columns: repeat(3, auto);
+   grid-gap: 50px
+  }
+  .Footer{
+  padding-top:200px;
+  }
 }
 @media only screen  and (max-width: 1000px){
   .DocText{
@@ -442,6 +481,25 @@
   }
   .DocSideIcon{
     display: none;
+  }
+ 
+}
+@media only screen  and (max-width: 600px){
+  .FooterGrid{
+    grid-template-columns: repeat(2, auto);
+   grid-gap: 40px
+  }
+  .FooterClickSvg{
+    display: block;
+    text-align: center;
+    justify-content: center;
+  }
+  .FooterSvg{
+    margin: 20px auto;
+   
+  }
+  .FooterIcon{
+    margin-top: 15px;
   }
 }
 @media only screen  and (max-width: 768px){
