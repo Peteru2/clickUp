@@ -411,6 +411,12 @@
   border-radius: 100px;
  
 }
+.FooterBg{
+  background:url("footer.svg");
+}
+.FooterBg li{
+  color:white
+}
 @media only screen  and (max-width: 1400px){
   .LandingMarg{
     margin: 110px 0px 0px;

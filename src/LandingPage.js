@@ -10,6 +10,7 @@ import TeamsImg from "./TeamsImg";
 import Docs from "./Docs";
 import SideComment from "./Sidecomment";
 import Platform from "./platform";
+import Footer from "./Footer";
 const Landing = () => {
     return ( 
         <>
@@ -72,6 +73,7 @@ const Landing = () => {
                     <SVG />
                     <SideComment />
                 </section>
+                <Footer />
         </>
      );
 }
