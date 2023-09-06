@@ -83,7 +83,7 @@ const Platform = () => {
 
                 
 </div>
-            <section className="bg-green-50 DocsRound big-round md:pt-10 pt-0">
+            <section className="bg-green-50 DocsRound big-round mb-20 md:pt-10 pt-0">
                
                 <div className="grid md:grid-cols-2 gap-4 grid-cols-1 md:mx-10 mx-6">
                     <div className="order1">

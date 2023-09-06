@@ -414,13 +414,13 @@
 .Footer{
   background:url("footer.svg");
   position:relative;
-  padding-top: 250px;
-  /* margin-top: 20px; */
+  padding-top: 170px;
+  margin-top: 200px;
   z-index: -1
 }
 .FooterTop{
   position: absolute;
-  top: -110px;
+  top: -180px;
   background-color: white;
   border-radius: 8px;
   width: 82%;
@@ -500,6 +500,7 @@
       align-items: center;
       flex-wrap: wrap;
       color: white;
+      margin-bottom: 20px;
 }
 .FooterFree{
   font-size: 17px;
@@ -539,10 +540,11 @@
   }
   .Footer{
   padding-top:200px;
+  margin-top: 140px;
   }
   .FooterTop{
     position: absolute;
-    top: -120px;
+    top: -90px;
     left:0px;
     background-color: white;
     border-radius: 8px;
@@ -591,25 +593,6 @@
    }
  
 }
-@media only screen  and (max-width: 600px){
-  .FooterGrid{
-    grid-template-columns: repeat(2, auto);
-   grid-gap: 40px
-  }
-  
-  .FooterClickSvg{
-    display: block;
-    text-align: center;
-    justify-content: center;
-  }
-  .FooterSvg{
-    margin: 20px auto;
-   
-  }
-  .FooterIcon{
-    margin-top: 15px;
-  }
-}
 
 
 @media only screen  and (max-width: 800px){
@@ -628,6 +611,14 @@
      left:88%;
      /* z-index: -2; */
    }
+   .FooterFree{
+   
+    margin-bottom: 30px;
+    
+  }
+  .FooterTop{
+    top: -75px
+  }
  
 }
 @media only screen  and (max-width: 768px){
@@ -674,8 +665,50 @@
          left:84%;
          /* z-index: -2; */
        }
+       .FooterTop{
+     
+        top: -140px;
+        left:0px;
+       
+      }
+      .FooterFreeCover{
+        justify-content: left;
+      }
       
    }
+   @media only screen  and (max-width: 600px){
+  .FooterGrid{
+    grid-template-columns: repeat(2, auto);
+   grid-gap: 40px
+  }
+  
+  .FooterClickSvg{
+    display: block;
+    text-align: center;
+    justify-content: center;
+  }
+  .FooterSvg{
+    margin: 20px auto;
+   
+  }
+  .FooterIcon{
+    margin-top: 15px;
+  }
+   .FooterTop{
+        top: -110px;
+        left:0px;
+      }
+      .FooterFree{
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  
+}
+.FooterFreeCover{
+  margin-top: 60px
+}
+}
+
   @media only screen  and (max-width: 540px){
     .loginForm{
     
@@ -713,6 +746,13 @@
       .platDesktopClicks{
         display: none;
       }
+      .FooterTop{
+     
+        top: -80px;
+        left:0px;
+       
+      }
+     
   }
     
     @media only screen  and (max-width: 480px){

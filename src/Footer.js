@@ -22,7 +22,7 @@ const Footer = () => {
                     </div>
                     <div className="FooterFreeCover">
                         <p className="FooterFree flex  items-center"><img src={Support} alt="support" className="mr-3"/>Free training & 24-hours support</p>
-                        <p className="FooterFree flex  items-center"><img src={Security} alt="security" className="mr-3"/>Serious about security & privacy</p>
+                        <p className="FooterFree flex  items-center"><img src={Security} alt="security" className="mr-4"/>Serious about security & privacy</p>
                         <p className="FooterFree flex  items-center"><img src={Uptime} alt="uptime" className="mr-3"/>Highest levels of uptime the last 12 months</p>    
                     </div>
                     <div className="footerPad">                   
