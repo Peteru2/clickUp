@@ -454,7 +454,10 @@
   margin-left: 150px;
   background-color: #7B68EE;
   font-weight: bold;
-  box-shadow: 0rem 0rem 1rem #7B68EE;;
+  box-shadow: 0rem 0rem 1rem #7B68EE;
+}
+.sideCommentBg{
+  background-color: #7B68EE;
 }
 .Footer li{
   color:white

@@ -116,8 +116,10 @@
 
 .signUpDown{
     color: white;
-    background-color: blue;
-    font-weight:bold
+    background-color: #7B68EE;
+    font-weight:bold;
+  box-shadow: 0rem 0r   em 1rem #7B68EE;
+
 }
 .signUpTop{
     display: block;
