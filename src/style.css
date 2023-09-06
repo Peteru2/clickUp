@@ -413,6 +413,48 @@
 }
 .Footer{
   background:url("footer.svg");
+  position:relative;
+  padding-top: 250px;
+  /* margin-top: 20px; */
+  z-index: -1
+}
+.FooterTop{
+  position: absolute;
+  top: -110px;
+  background-color: white;
+  border-radius: 8px;
+  width: 82%;
+  padding: 40px;
+  margin-left:6% ;
+  box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  
+
+}
+.FooterValue{
+  display: flex;
+  place-items: center;
+}
+.FooterTopText{
+  width: 64%;
+  margin-left: 100px;
+}
+.FooterTopLogo{
+  position:absolute;
+  top: -28px;
+  left:-30px;
+  right: 0;
+  bottom: 0;
+  /* z-index: -2; */
+}
+.FootTopText{
+    font-size: 60px;
+  }
+.FooterTopButton{
+  margin-left: 150px;
+  background-color: #7B68EE;
+  font-weight: bold;
+  box-shadow: 0rem 0rem 1rem #7B68EE;;
 }
 .Footer li{
   color:white
@@ -426,7 +468,6 @@
   background:rgba(225,225,225,.2  );
   font-weight: 400;
   border-radius: 7px;
-  
 
 }
 
@@ -449,6 +490,21 @@
 .FIconSize{
   font-size: 28px
 }
+.footerPad{
+  padding: 0px 95px;
+}
+.FooterFreeCover{
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+      color: white;
+}
+.FooterFree{
+  font-size: 17px;
+  font-weight: bold;
+}
 @media only screen  and (max-width: 1400px){
   .LandingMarg{
     margin: 110px 0px 0px;
@@ -460,8 +516,19 @@
   .DocVid{
     margin: 0px 150px
   }
+  .footerPad{
+    padding: 0px 20px;
+  }
 }
 @media only screen  and (max-width: 1200px){
+   
+  .FooterFreeCover{
+    display: flex;
+    justify-content: center;
+    }
+    .FooterFree{
+      padding: 0px 30px;
+    }
   .DocText{
     font-size: 38px;
     margin: 30px 300px
@@ -473,6 +540,39 @@
   .Footer{
   padding-top:200px;
   }
+  .FooterTop{
+    position: absolute;
+    top: -120px;
+    left:0px;
+    background-color: white;
+    border-radius: 8px;
+    width: 94%;
+    padding: 40px;
+    margin-left:3% ; 
+    box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  .FooterValue{
+    display: block;
+  }
+  .FooterTopText{
+    width: 100%;
+    margin-left: 0px;
+  }
+  .FootTopText{
+    font-size: 40px;
+  }
+  .FooterTopLogo{
+   /* top:0;
+   left:0; */
+    top: 44%;
+    left:91%;
+    /* z-index: -2; */
+  }
+  .FooterTopButton{
+    margin-left: 0px;
+    margin-top: 30px;
+  
+  }
 }
 @media only screen  and (max-width: 1000px){
   .DocText{
@@ -482,6 +582,13 @@
   .DocSideIcon{
     display: none;
   }
+  .FooterTopLogo{
+    /* top:0;
+    left:0; */
+     top: 44%;
+     left:90%;
+     /* z-index: -2; */
+   }
  
 }
 @media only screen  and (max-width: 600px){
@@ -489,6 +596,7 @@
     grid-template-columns: repeat(2, auto);
    grid-gap: 40px
   }
+  
   .FooterClickSvg{
     display: block;
     text-align: center;
@@ -501,6 +609,26 @@
   .FooterIcon{
     margin-top: 15px;
   }
+}
+
+
+@media only screen  and (max-width: 800px){
+
+  .DocText{
+    font-size: 30px;
+    margin: 30px 50px
+  }
+  .DocVid{
+    margin: 0px 15px
+  }
+  .FooterTopLogo{
+    /* top:0;
+    left:0; */
+     top: 44%;
+     left:88%;
+     /* z-index: -2; */
+   }
+ 
 }
 @media only screen  and (max-width: 768px){
   .LandingMarg{
@@ -527,29 +655,45 @@
  
   order: 1;
 }
-}
-
-@media only screen  and (max-width: 800px){
-
-  .DocText{
-    font-size: 30px;
-    margin: 30px 50px
-  }
-  .DocVid{
-    margin: 0px 15px
-  }
- 
+.FooterTopLogo{
+  /* top:0;
+  left:0; */
+   top: 47%;
+   left:86%;
+   /* z-index: -2; */
+ }
 }
    @media only screen  and (max-width: 650px){
      .SsoAsideBox, .LogAsideBox{
         display: none;
       } 
-     
+      .FooterTopLogo{
+        /* top:0;
+        left:0; */
+         top: 54%;
+         left:84%;
+         /* z-index: -2; */
+       }
+      
    }
   @media only screen  and (max-width: 540px){
     .loginForm{
     
       width: 330px;
+      }
+       .FootTopText{
+        font-size: 33px;
+      }
+      .FooterTopLogo{
+        /* top:0;
+        left:0; */
+         top: 54%;
+         left:80%;
+         /* z-index: -2; */
+       }
+       .FooterTopText{
+        width: 85%;
+       
       }
       .landingSvg{
         display:none

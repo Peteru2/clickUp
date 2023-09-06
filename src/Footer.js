@@ -1,8 +1,32 @@
+import logo from "./logo.svg"
+import Security from "./SecurityBadge.svg"
+import Support from "./SupportBadge.svg"
+import Uptime from "./UptimeBadge.svg"
 const Footer = () => {
     return ( 
         <>
-                <footer className="Footer w-full  md:px-20 px-10 text-white py-20">
-                    <div className="FooterGrid ">
+                <footer className="Footer w-full border-top-2 border-gray-400   mt-16 px-10 py-20">
+                    <div className="FooterTop">
+                    <div className="FooterValue">
+                        <img src={logo} alt="logo" className="FooterTopLogo" /> 
+                            <div className="FooterTopText">
+                                    <p className="text-gray-900 FootTopText font-bold">One app to replace them all.</p>
+                                    <p className="mt-4">All of your work in one place: Tasks, Docs, Chat, Goals, & more.</p>
+                            </div>
+                            <div>
+                                <button className="FooterTopButton py-3 px-7 rounded-md text-white">
+                                    Free Forever
+                                </button>
+                            </div>
+                    </div>
+                    </div>
+                    <div className="FooterFreeCover">
+                        <p className="FooterFree flex  items-center"><img src={Support} alt="support" className="mr-3"/>Free training & 24-hours support</p>
+                        <p className="FooterFree flex  items-center"><img src={Security} alt="security" className="mr-3"/>Serious about security & privacy</p>
+                        <p className="FooterFree flex  items-center"><img src={Uptime} alt="uptime" className="mr-3"/>Highest levels of uptime the last 12 months</p>    
+                    </div>
+                    <div className="footerPad">                   
+                        <div className="FooterGrid  pt-10 border-t-2 border-gray-400  ">
                         <ul className="text-sm text-white">
                             <li><b>CLICKUP</b></li>
                             <li className="my-4 text-gray-800 hover:text-blue-500 text-white">Download</li>
@@ -79,7 +103,7 @@ const Footer = () => {
                             <li className="my-4 text-gray-800">Newsletter</li>
                             <li className="my-4 text-gray-800">Podcast</li>
 
-                            <div className="pt-20 border-t-2 mt-10 w-40">
+                            <div className="pt-20 border-t-2 mt-10 w-40 text-white">
                                 <button className="FooterButton px-3">
                                     <p className="grid grid-cols-5 text-left">
                                     <i className="fa fa-apple text-3xl "></i>
@@ -92,7 +116,7 @@ const Footer = () => {
                                 </button>
                                 <button className="FooterButton px-3 mt-4">
                                     <p className="grid grid-cols-5 text-left">
-                                    <i className="fa fa-apple text-3xl "></i>
+                                    <i className="fab fa-google-play text-2xl mt-1 "></i>
                                     <p className="text-left col-span-4 px-2">
                                         <h2 className="FootDownload">GET IT ON</h2>
                                         <h2 className="FootGplay">Google Play</h2>
@@ -103,6 +127,8 @@ const Footer = () => {
                             </div>
                         </ul>
                         </div>
+                        </div>
+ 
                         <div className="FooterClickSvg mt-20 border-t-2 border-gray-400">
                             <div>
                             <svg width="146" height="38" className="FooterSvg" fill="none" xmlns="http://www.w3.org/2000/svg">
