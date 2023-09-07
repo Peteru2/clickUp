@@ -11,6 +11,7 @@ import Docs from "./Docs";
 import SideComment from "./Sidecomment";
 import Platform from "./platform";
 import Footer from "./Footer";
+import CustomerSupport from "./CustomerSupport";
 const Landing = () => {
     return ( 
         <>
@@ -35,9 +36,9 @@ const Landing = () => {
                                 </p>
                                 </div>
                                 <div className="md:flex grid grid-cols-1 ml-12 mt-10 md:hidden block">
-                                            <p className="my-2"><i className="fa fa-check-circle text-green-500"></i> <span className="font-bold text-gray-500 text-sm">Manage tasks, workflows & goals</span></p>
-                                            <p className="my-2"><i className="fa fa-check-circle text-green-500"></i> <span className="font-bold text-gray-500 text-sm">Collaborate in Docs & Whiteboards</span></p>
-                                            <p className="my-2"><i className="fa fa-check-circle text-green-500"></i> <span className="font-bold text-gray-500 text-sm">Save time with no code automation </span></p>
+                                            <p className="my-2"><i className="fa fa-check-circle-o text-green-500"></i> <span className="font-bold text-gray-500 text-sm">Manage tasks, workflows & goals</span></p>
+                                            <p className="my-2"><i className="fa fa-check-circle-o text-green-500"></i> <span className="font-bold text-gray-500 text-sm">Collaborate in Docs & Whiteboards</span></p>
+                                            <p className="my-2"><i className="fa fa-check-circle-o text-green-500"></i> <span className="font-bold text-gray-500 text-sm">Save time with no code automation </span></p>
                                 </div>
                                 <div className="mt-6 md:mx-0 mx-6">
                                     <input type="text" placeholder="Enter your work email" className="p-4 md:w-80 w-full border-blue-300 rounded-lg  border-2"/>
@@ -68,7 +69,7 @@ const Landing = () => {
                     <TeamsImg />
                     <Docs />
                     <Platform />
-
+                    <CustomerSupport />
 
                     <SVG />
                     <SideComment />
