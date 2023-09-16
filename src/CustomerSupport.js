@@ -3,7 +3,7 @@ const CustomerSupport = () => {
     return ( 
             <>
     
-    <section className=" DocsRound big-round mb-20 md:pt-10 pt-0">
+    <section className=" DocsRound big-round mb-44 md:pt-10 pt-0">
                
                <div className="grid md:grid-cols-2 gap-4 grid-cols-1 md:mx-10 mx-6">
                 <div className="md:order-1 order-2">
