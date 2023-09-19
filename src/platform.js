@@ -70,7 +70,7 @@ const Platform = () => {
     ]
     return (
         <>
-         <div className="flex pl-2 mt-4 pb-3 overflow-x-scroll platMobileClicks">
+         <div className="flex pl-2 mt-10 mb-6 pb-3 overflow-x-scroll platMobileClicks">
                     
 
              
