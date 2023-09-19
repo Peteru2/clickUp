@@ -57,7 +57,7 @@ const TeamsImg = () => {
 
     }
     return ( <>
-    <section className="bg-gray-100  md:bg-transparent rounded-lg md:p-0 p-5 mt-10">
+    <section className="bg-gray-100  md:bg-transparent rounded-lg md:p-0 p-5 mt-10 mb-6">
         <p className="my-8 text-center text-gray-500  font-bold text-sm">JOIN 800,000+ HIGHLY PRODUCTIVE TEAMS</p>
         <div className="md:flex md:flex-row md:flex-wrap grid grid-cols-2 gap-4 w-full  mx-auto    md:justify-center">
                 
