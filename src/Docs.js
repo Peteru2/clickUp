@@ -30,7 +30,7 @@ const Docs = () => {
 
     return (
         <>
-            <section className="md:bg-gray-100 bg-transparent FloatIcons md:pt-8 py-0 big-round my-8 mt-20 mb-20">
+            <section className="md:bg-gray-100 bg-transparent FloatIcons md:pt-8 py-0 big-round  md:my-20 my-10">
                 <div className="flex md:text-center   text-left md:justify-center my-6 font-bold">
                         <p className={Docs ? "mr-8 pb-2 border-b-4  border-blue-400 hover:border-b-4 text-gray-700 cursor-pointer":" cursor-pointer mr-8 pb-2 text-gray-700 border-blue-400 hover:border-b-4"} onClick={handleDocs}>Docs</p>
                         <p className= {White ? "mx-8 pb-2 border-b-4  border-blue-400 hover:border-b-4 text-gray-700 cursor-pointer" :"cursor-pointer text-gray-700 mx-8 pb-2  border-blue-400 hover:border-b-4"} onClick={handleWhite}>Whiteboards</p>
