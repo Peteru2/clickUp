@@ -57,7 +57,7 @@ const TeamsImg = () => {
 
     }
     return ( <>
-    <section className="bg-gray-100  md:bg-transparent rounded-lg md:p-0 p-5 mt-10">
+    <section className="bg-gray-100  md:bg-transparent rounded-lg md:p-0 p-5 md:my-20 my-10 ">
         <p className="my-8 text-center text-gray-500  font-bold text-sm">JOIN 800,000+ HIGHLY PRODUCTIVE TEAMS</p>
         <div className="md:flex md:flex-row md:flex-wrap grid grid-cols-2 gap-4 w-full  mx-auto    md:justify-center">
                 
@@ -75,7 +75,7 @@ const TeamsImg = () => {
         </div>
         
         </section>
-        <div className="md:bg-rose-50 bg-transparent mt-10 big-round p-0 md:p-12">
+        <div className="md:bg-rose-50 bg-transparent mt-20 mb-20 big-round p-0 md:p-12">
             <div className="flex pb-3">
                 <h3 className={projTask ? "border-b-4 md:mx-4 mr-4 font-bold pb-1 cursor-pointer hover:border-b-4 border-rose-300":" md:mx-4 mr-4 font-bold pb-1 cursor-pointer hover:border-b-4 border-rose-300"} onClick={handleTask}>Project & Tasks</h3>
                 <h3 className={chat ? "border-b-4 mx-4 font-bold   pb-1 cursor-pointer hover:border-b-4 border-rose-300" :" mx-4 font-bold   pb-1 cursor-pointer hover:border-b-4 border-rose-300"} onClick={handleChat}>Chat</h3>
