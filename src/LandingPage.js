@@ -12,12 +12,15 @@ import SideComment from "./Sidecomment";
 import Platform from "./platform";
 import Footer from "./Footer";
 import CustomerSupport from "./CustomerSupport";
+import { Fade, Zoom, Bounce } from "react-awesome-reveal";
 const Landing = () => {
     return ( 
         <>
             <Navbar />
                 <section className="LandingMarg  md:mt-32 mt-16 ">
                     <div className="grid md:grid-cols-2 grid-cols-1 gap-20 md:mx-20 mx-0 ">
+                    <Zoom triggerOnce  cascade>
+
                             <div className="md:order-1 order-2">
                                 <p className="md:text-7xl text-4xl text-center md:text-left mt-10 font-bold">One app to replace them all.</p>
                                 <p className="mt-10 mb-4 hidden md:block">All your work in one place: </p>
@@ -59,18 +62,28 @@ const Landing = () => {
                                     </div>
                                 </div>
                             </div>
+
                             <div className="md:order-2 order-1 md:block hidden">
                           <video autoPlay loop muted playsInline>
                             <source src={Vid1} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
                             </div>
-                    </div>
-                    <TeamsImg />
-                    <Docs />
-                    <Platform />
-                    <CustomerSupport />
+                    </Zoom>
 
+                    </div>
+                    <Fade triggerOnce>
+                    <TeamsImg />
+                    </Fade>
+                    <Bounce triggerOnce>
+                            <Docs />
+                     </Bounce>
+                    <Fade triggerOnce>
+                    <Platform />
+                    </Fade>
+                    <Fade triggerOnce>
+                    <CustomerSupport />
+                    </Fade>
                     <SVG />
                     <SideComment />
                 </section>
